@@ -16,6 +16,7 @@ void pre(){
  
 void solve(){
     int n;
+ 
     cin>>n;
     
     int omega=0, m=0, last_p=-1;
@@ -28,7 +29,6 @@ void solve(){
         }
         n/=p;
     }
- 
     
     cout<<omega+m-1<<endl;
 }
