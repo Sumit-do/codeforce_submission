@@ -44,6 +44,11 @@ void solve() {
         }
         square += w2 + w3;
     }
+ 
+ 
+ 
+ 
+ 
     cout << square << "
 ";
 }
