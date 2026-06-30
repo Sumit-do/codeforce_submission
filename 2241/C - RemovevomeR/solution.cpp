@@ -9,6 +9,8 @@ void solve(){
         if(s[i]=='1'&&s[i+1]=='0') h10=1;
     }
     int min=(h01^h10)?2:1;
+ 
+ 
     cout<<min<<"
 ";
 }
