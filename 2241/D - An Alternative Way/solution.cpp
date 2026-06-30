@@ -11,6 +11,10 @@ void solve(){
         life+=b[i]-a[i];
         if(life<0){is=0;break;}
     }
+ 
+ 
+ 
+ 
     cout<<(is?"YES
 ":"NO
 ");
