@@ -32,7 +32,7 @@ void solve() {
     vector<ll> sz(n + 1);
     dfs(1, 0, adj, sz);
     
-    ll squarewf = 0;
+    ll square = 0;
     for (int i = 1; i <= n; i++) {
         if (!sq[i]) continue;
         ll w1 = 0, w2 = 0, w3 = 0;
@@ -42,9 +42,9 @@ void solve() {
             w2 += w1 * s;
             w1 += s;
         }
-        squarewf += w2 + w3;
+        square += w2 + w3;
     }
-    cout << squarewf << "
+    cout << square << "
 ";
 }
  
