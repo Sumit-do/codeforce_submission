@@ -6,12 +6,12 @@ void solve(){
     for(long long &x: a) cin>>x;
     for(long long &x: b) cin>>x;
     long long life=0;
-    bool iswf=1;
+    bool is=1;
     for(int i=0;i<n;i++){
         life+=b[i]-a[i];
-        if(life<0){iswf=0;break;}
+        if(life<0){is=0;break;}
     }
-    cout<<(iswf?"YES
+    cout<<(is?"YES
 ":"NO
 ");
 }
