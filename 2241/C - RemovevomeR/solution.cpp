@@ -8,8 +8,8 @@ void solve(){
         if(s[i]=='0'&&s[i+1]=='1') h01=1;
         if(s[i]=='1'&&s[i+1]=='0') h10=1;
     }
-    int minwf=(h01^h10)?2:1;
-    cout<<minwf<<"
+    int min=(h01^h10)?2:1;
+    cout<<min<<"
 ";
 }
 int main(){
