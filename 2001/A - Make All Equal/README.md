@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/2001/problem/A" target="_blank" rel="noopener noreferrer">2001A — Make All Equal</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2001A](https://codeforces.com/contest/2001/problem/A) |
+
+## Topics
+`greedy` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Make All Equal</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given a cyclic array $$$a_1, a_2, \ldots, a_n$$$.</p><p>You can perform the following operation on $$$a$$$ at most $$$n - 1$$$ times:</p><ul> <li> Let $$$m$$$ be the current size of $$$a$$$, you can choose any two adjacent elements where the previous one is no greater than the latter one (In particular, $$$a_m$$$ and $$$a_1$$$ are adjacent and $$$a_m$$$ is the previous one), and delete exactly one of them. In other words, choose an integer $$$i$$$ ($$$1 \leq i \leq m$$$) where $$$a_i \leq a_{(i \bmod m) + 1}$$$ holds, and delete exactly one of $$$a_i$$$ or $$$a_{(i \bmod m) + 1}$$$ from $$$a$$$. </li></ul><p>Your goal is to find the minimum number of operations needed to make all elements in $$$a$$$ equal.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 500$$$). The description of the test cases follows.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$1 \le n \le 100$$$) — the length of the array $$$a$$$.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$1 \le a_i \le n$$$) — the elements of array $$$a$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single line containing an integer: the minimum number of operations needed to make all elements in $$$a$$$ equal.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009832038373536399" id="id009586876747473055" class="input-output-copier">Copy</div></div><pre id="id009832038373536399"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">1</div><div class="test-example-line test-example-line-odd test-example-line-1">1</div><div class="test-example-line test-example-line-even test-example-line-2">3</div><div class="test-example-line test-example-line-even test-example-line-2">1 2 3</div><div class="test-example-line test-example-line-odd test-example-line-3">3</div><div class="test-example-line test-example-line-odd test-example-line-3">1 2 2</div><div class="test-example-line test-example-line-even test-example-line-4">5</div><div class="test-example-line test-example-line-even test-example-line-4">5 4 3 2 1</div><div class="test-example-line test-example-line-odd test-example-line-5">6</div><div class="test-example-line test-example-line-odd test-example-line-5">1 1 2 2 3 3</div><div class="test-example-line test-example-line-even test-example-line-6">8</div><div class="test-example-line test-example-line-even test-example-line-6">8 7 6 3 8 7 6 3</div><div class="test-example-line test-example-line-odd test-example-line-7">6</div><div class="test-example-line test-example-line-odd test-example-line-7">1 1 4 5 1 4</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00552229972814472" id="id00690941519101481" class="input-output-copier">Copy</div></div><pre id="id00552229972814472">0
+2
+1
+4
+4
+6
+3
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, there is only one element in $$$a$$$, so we can't do any operation.</p><p>In the second test case, we can perform the following operations to make all elements in $$$a$$$ equal:</p><ul> <li> choose $$$i = 2$$$, delete $$$a_3$$$, then $$$a$$$ would become $$$[1, 2]$$$. </li><li> choose $$$i = 1$$$, delete $$$a_1$$$, then $$$a$$$ would become $$$[2]$$$. </li></ul><p>It can be proven that we can't make all elements in $$$a$$$ equal using fewer than $$$2$$$ operations, so the answer is $$$2$$$.</p></div>
