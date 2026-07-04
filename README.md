@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 13 | 19 |
+| 14 | 19 |
 
 ---
 
@@ -17,17 +17,17 @@
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (1)
-- [combinatorics](#combinatorics) (3)
+- [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (3)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (3)
+- [dp](#dp) (4)
 - [fft](#fft) (1)
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (3)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (1)
-- [math](#math) (6)
+- [math](#math) (7)
 - [number theory](#number-theory) (4)
 - [strings](#strings) (1)
 - [trees](#trees) (1)
@@ -75,6 +75,7 @@
 |---|---------|------------|----------|
 | 2072F | [Goodbye, Banker Life](https://codeforces.com/contest/2072/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2072/F%20-%20Goodbye%2C%20Banker%20Life/solution.cpp) |
 | 2086D | [Even String](https://codeforces.com/contest/2086/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2086/D%20-%20Even%20String/solution.cpp) |
+| 2184D | [Unfair Game](https://codeforces.com/contest/2184/problem/D) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/D%20-%20Unfair%20Game/solution.cpp) |
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
 
 ### constructive algorithms
@@ -103,6 +104,7 @@
 |---|---------|------------|----------|
 | 2086D | [Even String](https://codeforces.com/contest/2086/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2086/D%20-%20Even%20String/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
+| 2184D | [Unfair Game](https://codeforces.com/contest/2184/problem/D) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/D%20-%20Unfair%20Game/solution.cpp) |
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
 
 ### fft
@@ -146,6 +148,7 @@
 | 2086D | [Even String](https://codeforces.com/contest/2086/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2086/D%20-%20Even%20String/solution.cpp) |
 | 2092C | [Asuna and the Mosquitoes](https://codeforces.com/contest/2092/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2092/C%20-%20Asuna%20and%20the%20Mosquitoes/solution.cpp) |
 | 2094G | [Chimpanzini Bananini](https://codeforces.com/contest/2094/problem/G) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2094/G%20-%20Chimpanzini%20Bananini/solution.cpp) |
+| 2184D | [Unfair Game](https://codeforces.com/contest/2184/problem/D) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/D%20-%20Unfair%20Game/solution.cpp) |
 | 2238D | [Storming Arasaka](https://codeforces.com/contest/2238/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2238/D%20-%20Storming%20Arasaka/solution.cpp) |
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
 
