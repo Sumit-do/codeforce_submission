@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/1633/problem/D" target="_blank" rel="noopener noreferrer">1633D — Make Them Equal</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1600 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1633D](https://codeforces.com/contest/1633/problem/D) |
+
+## Topics
+`dp` `greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. Make Them Equal</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You have an array of integers $$$a$$$ of size $$$n$$$. Initially, all elements of the array are equal to $$$1$$$. You can perform the following operation: choose two integers $$$i$$$ ($$$1 \le i \le n$$$) and $$$x$$$ ($$$x  \gt  0$$$), and then increase the value of $$$a_i$$$ by $$$\left\lfloor\frac{a_i}{x}\right\rfloor$$$ (i.e. make $$$a_i = a_i + \left\lfloor\frac{a_i}{x}\right\rfloor$$$).</p><p>After performing all operations, you will receive $$$c_i$$$ coins for all such $$$i$$$ that $$$a_i = b_i$$$.</p><p>Your task is to determine the maximum number of coins that you can receive by performing no more than $$$k$$$ operations.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 100$$$) — the number of test cases.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$k$$$ ($$$1 \le n \le 10^3; 0 \le k \le 10^6$$$) — the size of the array and the maximum number of operations, respectively.</p><p>The second line contains $$$n$$$ integers $$$b_1, b_2, \dots, b_n$$$ ($$$1 \le b_i \le 10^3$$$).</p><p>The third line contains $$$n$$$ integers $$$c_1, c_2, \dots, c_n$$$ ($$$1 \le c_i \le 10^6$$$).</p><p>The sum of $$$n$$$ over all test cases does not exceed $$$10^3$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print one integer — the maximum number of coins that you can get by performing no more than $$$k$$$ operations.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id002544819607398551" id="id0003531747753618619" class="input-output-copier">Copy</div></div><pre id="id002544819607398551"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">4 4</div><div class="test-example-line test-example-line-odd test-example-line-1">1 7 5 2</div><div class="test-example-line test-example-line-odd test-example-line-1">2 6 5 2</div><div class="test-example-line test-example-line-even test-example-line-2">3 0</div><div class="test-example-line test-example-line-even test-example-line-2">3 5 2</div><div class="test-example-line test-example-line-even test-example-line-2">5 4 7</div><div class="test-example-line test-example-line-odd test-example-line-3">5 9</div><div class="test-example-line test-example-line-odd test-example-line-3">5 2 5 6 3</div><div class="test-example-line test-example-line-odd test-example-line-3">5 9 1 9 7</div><div class="test-example-line test-example-line-even test-example-line-4">6 14</div><div class="test-example-line test-example-line-even test-example-line-4">11 4 6 2 8 16</div><div class="test-example-line test-example-line-even test-example-line-4">43 45 9 41 15 38</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0031468725176991863" id="id008164544238225462" class="input-output-copier">Copy</div></div><pre id="id0031468725176991863">9
+0
+30
+167
+</pre></div></div></div>
