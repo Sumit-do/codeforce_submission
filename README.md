@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 123 | 23 |
+| 137 | 24 |
 
 ---
 
@@ -14,27 +14,28 @@
 
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (6)
-- [binary search](#binary-search) (13)
-- [bitmasks](#bitmasks) (22)
-- [brute force](#brute-force) (20)
-- [combinatorics](#combinatorics) (8)
-- [constructive algorithms](#constructive-algorithms) (28)
-- [data structures](#data-structures) (12)
-- [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (7)
+- [binary search](#binary-search) (16)
+- [bitmasks](#bitmasks) (24)
+- [brute force](#brute-force) (23)
+- [combinatorics](#combinatorics) (9)
+- [constructive algorithms](#constructive-algorithms) (32)
+- [data structures](#data-structures) (15)
+- [dfs and similar](#dfs-and-similar) (2)
+- [dp](#dp) (10)
+- [dsu](#dsu) (1)
 - [fft](#fft) (1)
 - [games](#games) (2)
 - [graphs](#graphs) (3)
-- [greedy](#greedy) (56)
+- [greedy](#greedy) (63)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (32)
-- [math](#math) (57)
-- [number theory](#number-theory) (27)
-- [sortings](#sortings) (14)
-- [strings](#strings) (8)
+- [implementation](#implementation) (33)
+- [math](#math) (66)
+- [number theory](#number-theory) (28)
+- [sortings](#sortings) (16)
+- [strings](#strings) (9)
 - [ternary search](#ternary-search) (1)
-- [trees](#trees) (1)
-- [two pointers](#two-pointers) (8)
+- [trees](#trees) (2)
+- [two pointers](#two-pointers) (10)
 
 ---
 
@@ -66,8 +67,11 @@
 | 1613C | [Poisoned Dagger](https://codeforces.com/contest/1613/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1613/C%20-%20Poisoned%20Dagger/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1692E | [Binary Deque](https://codeforces.com/contest/1692/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1692/E%20-%20Binary%20Deque/solution.cpp) |
+| 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
 | 1742E | [Scuza](https://codeforces.com/contest/1742/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1742/E%20-%20Scuza/solution.cpp) |
+| 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
+| 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2065C1 | [Skibidus and Fanum Tax (easy version)](https://codeforces.com/contest/2065/problem/C1) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/C1%20-%20Skibidus%20and%20Fanum%20Tax%20(easy%20version)/solution.cpp) |
 | 2065C2 | [Skibidus and Fanum Tax (hard version)](https://codeforces.com/contest/2065/problem/C2) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/C2%20-%20Skibidus%20and%20Fanum%20Tax%20(hard%20version)/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
@@ -84,6 +88,7 @@
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1362B | [Johnny and His Hobbies](https://codeforces.com/contest/1362/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1362/B%20-%20Johnny%20and%20His%20Hobbies/solution.cpp) |
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
+| 1420B | [Rock and Lever](https://codeforces.com/contest/1420/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1420/B%20-%20Rock%20and%20Lever/solution.cpp) |
 | 1421A | [XORwice](https://codeforces.com/contest/1421/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1421/A%20-%20XORwice/solution.cpp) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
 | 1516B | [AGAGA XOOORRR](https://codeforces.com/contest/1516/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1516/B%20-%20AGAGA%20XOOORRR/solution.cpp) |
@@ -96,6 +101,7 @@
 | 1722G | [Even-Odd XOR](https://codeforces.com/contest/1722/problem/G) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1722/G%20-%20Even-Odd%20XOR/solution.cpp) |
 | 1726B | [Mainak and Interesting Sequence](https://codeforces.com/contest/1726/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1726/B%20-%20Mainak%20and%20Interesting%20Sequence/solution.cpp) |
 | 1742G | [Orray](https://codeforces.com/contest/1742/problem/G) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1742/G%20-%20Orray/solution.cpp) |
+| 1775B | [Gardener and the Array](https://codeforces.com/contest/1775/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1775/B%20-%20Gardener%20and%20the%20Array/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
 | 2072F | [Goodbye, Banker Life](https://codeforces.com/contest/2072/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2072/F%20-%20Goodbye%2C%20Banker%20Life/solution.cpp) |
 | 2119A | [Add or XOR](https://codeforces.com/contest/2119/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2119/A%20-%20Add%20or%20XOR/solution.cpp) |
@@ -112,11 +118,14 @@
 | 1516B | [AGAGA XOOORRR](https://codeforces.com/contest/1516/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1516/B%20-%20AGAGA%20XOOORRR/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
 | 1582C | [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1582/C%20-%20Grandma%20Capa%20Knits%20a%20Scarf/solution.cpp) |
+| 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1742G | [Orray](https://codeforces.com/contest/1742/problem/G) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1742/G%20-%20Orray/solution.cpp) |
 | 1819A | [Constructive Problem](https://codeforces.com/contest/1819/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1819/A%20-%20Constructive%20Problem/solution.cpp) |
 | 1821B | [Sort the Subarray](https://codeforces.com/contest/1821/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1821/B%20-%20Sort%20the%20Subarray/solution.cpp) |
+| 1846E1 | [Rudolf and Snowflakes (simple version)](https://codeforces.com/contest/1846/problem/E1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1846/E1%20-%20Rudolf%20and%20Snowflakes%20(simple%20version)/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
+| 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
 | 2086D | [Even String](https://codeforces.com/contest/2086/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2086/D%20-%20Even%20String/solution.cpp) |
 | 2094B | [Bobritto Bandito](https://codeforces.com/contest/2094/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2094/B%20-%20Bobritto%20Bandito/solution.cpp) |
@@ -132,6 +141,7 @@
 | 677C | [Vanya and Label](https://codeforces.com/contest/677/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/677/C%20-%20Vanya%20and%20Label/solution.cpp) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
+| 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
 | 1931D | [Divisible Pairs](https://codeforces.com/contest/1931/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1931/D%20-%20Divisible%20Pairs/solution.cpp) |
 | 2072F | [Goodbye, Banker Life](https://codeforces.com/contest/2072/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2072/F%20-%20Goodbye%2C%20Banker%20Life/solution.cpp) |
 | 2086D | [Even String](https://codeforces.com/contest/2086/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2086/D%20-%20Even%20String/solution.cpp) |
@@ -144,8 +154,10 @@
 |---|---------|------------|----------|
 | 776B | [Sherlock and his girlfriend](https://codeforces.com/contest/776/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/776/B%20-%20Sherlock%20and%20his%20girlfriend/solution.cpp) |
 | 1421C | [Palindromifier](https://codeforces.com/contest/1421/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1421/C%20-%20Palindromifier/solution.cpp) |
+| 1433D | [Districts Connection](https://codeforces.com/contest/1433/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1433/D%20-%20Districts%20Connection/solution.cpp) |
 | 1437B | [Reverse Binary Strings](https://codeforces.com/contest/1437/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1437/B%20-%20Reverse%20Binary%20Strings/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
+| 1497B | [M-arrays](https://codeforces.com/contest/1497/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1497/B%20-%20M-arrays/solution.cpp) |
 | 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1511B | [GCD Length](https://codeforces.com/contest/1511/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1511/B%20-%20GCD%20Length/solution.cpp) |
 | 1527B1 | [Palindrome Game (easy version)](https://codeforces.com/contest/1527/problem/B1) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1527/B1%20-%20Palindrome%20Game%20(easy%20version)/solution.cpp) |
@@ -154,6 +166,7 @@
 | 1635C | [Differential Sorting](https://codeforces.com/contest/1635/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1635/C%20-%20Differential%20Sorting/solution.cpp) |
 | 1722G | [Even-Odd XOR](https://codeforces.com/contest/1722/problem/G) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1722/G%20-%20Even-Odd%20XOR/solution.cpp) |
 | 1726B | [Mainak and Interesting Sequence](https://codeforces.com/contest/1726/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1726/B%20-%20Mainak%20and%20Interesting%20Sequence/solution.cpp) |
+| 1775B | [Gardener and the Array](https://codeforces.com/contest/1775/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1775/B%20-%20Gardener%20and%20the%20Array/solution.cpp) |
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
 | 1809C | [Sum on Subarrays](https://codeforces.com/contest/1809/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1809/C%20-%20Sum%20on%20Subarrays/solution.cpp) |
 | 1889A | [Qingshan Loves Strings 2](https://codeforces.com/contest/1889/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1889/A%20-%20Qingshan%20Loves%20Strings%202/solution.cpp) |
@@ -170,6 +183,7 @@
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.cpp) |
 | 2146C | [Wrong Binary Search](https://codeforces.com/contest/2146/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2146/C%20-%20Wrong%20Binary%20Search/solution.cpp) |
 | 2155B | [Abraham's Great Escape](https://codeforces.com/contest/2155/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2155/B%20-%20Abraham's%20Great%20Escape/solution.cpp) |
+| 2175B | [XOR Array](https://codeforces.com/contest/2175/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2175/B%20-%20XOR%20Array/solution.cpp) |
 
 ### data structures
 
@@ -180,10 +194,13 @@
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1582C | [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1582/C%20-%20Grandma%20Capa%20Knits%20a%20Scarf/solution.cpp) |
 | 1679B | [Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1679/B%20-%20Stone%20Age%20Problem/solution.cpp) |
+| 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
 | 1790D | [Matryoshkas](https://codeforces.com/contest/1790/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1790/D%20-%20Matryoshkas/solution.cpp) |
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
+| 1915E | [Romantic Glasses](https://codeforces.com/contest/1915/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1915/E%20-%20Romantic%20Glasses/solution.cpp) |
 | 1918B | [Minimize Inversions](https://codeforces.com/contest/1918/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1918/B%20-%20Minimize%20Inversions/solution.cpp) |
+| 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2094G | [Chimpanzini Bananini](https://codeforces.com/contest/2094/problem/G) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2094/G%20-%20Chimpanzini%20Bananini/solution.cpp) |
 | 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.cpp) |
 | 2140C | [Ultimate Value](https://codeforces.com/contest/2140/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2140/C%20-%20Ultimate%20Value/solution.cpp) |
@@ -192,6 +209,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1433D | [Districts Connection](https://codeforces.com/contest/1433/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1433/D%20-%20Districts%20Connection/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
 
 ### dp
@@ -200,11 +218,20 @@
 |---|---------|------------|----------|
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 1516B | [AGAGA XOOORRR](https://codeforces.com/contest/1516/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1516/B%20-%20AGAGA%20XOOORRR/solution.cpp) |
+| 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
+| 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
+| 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2065C1 | [Skibidus and Fanum Tax (easy version)](https://codeforces.com/contest/2065/problem/C1) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/C1%20-%20Skibidus%20and%20Fanum%20Tax%20(easy%20version)/solution.cpp) |
 | 2086D | [Even String](https://codeforces.com/contest/2086/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2086/D%20-%20Even%20String/solution.cpp) |
 | 2110D | [Fewer Batteries](https://codeforces.com/contest/2110/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2110/D%20-%20Fewer%20Batteries/solution.cpp) |
 | 2184D | [Unfair Game](https://codeforces.com/contest/2184/problem/D) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/D%20-%20Unfair%20Game/solution.cpp) |
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
+
+### dsu
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 
 ### fft
 
@@ -241,16 +268,19 @@
 | 1421A | [XORwice](https://codeforces.com/contest/1421/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1421/A%20-%20XORwice/solution.cpp) |
 | 1437B | [Reverse Binary Strings](https://codeforces.com/contest/1437/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1437/B%20-%20Reverse%20Binary%20Strings/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
+| 1497B | [M-arrays](https://codeforces.com/contest/1497/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1497/B%20-%20M-arrays/solution.cpp) |
 | 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1516B | [AGAGA XOOORRR](https://codeforces.com/contest/1516/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1516/B%20-%20AGAGA%20XOOORRR/solution.cpp) |
 | 1539C | [Stable Groups](https://codeforces.com/contest/1539/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1539/C%20-%20Stable%20Groups/solution.cpp) |
 | 1547D | [Co-growing Sequence](https://codeforces.com/contest/1547/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1547/D%20-%20Co-growing%20Sequence/solution.cpp) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.cpp) |
 | 1582C | [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1582/C%20-%20Grandma%20Capa%20Knits%20a%20Scarf/solution.cpp) |
+| 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
 | 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1635C | [Differential Sorting](https://codeforces.com/contest/1635/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1635/C%20-%20Differential%20Sorting/solution.cpp) |
 | 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
+| 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
 | 1704C | [Virus](https://codeforces.com/contest/1704/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1704/C%20-%20Virus/solution.cpp) |
 | 1722G | [Even-Odd XOR](https://codeforces.com/contest/1722/problem/G) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1722/G%20-%20Even-Odd%20XOR/solution.cpp) |
 | 1729D | [Friends and the Restaurant](https://codeforces.com/contest/1729/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1729/D%20-%20Friends%20and%20the%20Restaurant/solution.cpp) |
@@ -260,15 +290,19 @@
 | 1787B | [Number Factorization](https://codeforces.com/contest/1787/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1787/B%20-%20Number%20Factorization/solution.cpp) |
 | 1790D | [Matryoshkas](https://codeforces.com/contest/1790/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1790/D%20-%20Matryoshkas/solution.cpp) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
+| 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1809C | [Sum on Subarrays](https://codeforces.com/contest/1809/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1809/C%20-%20Sum%20on%20Subarrays/solution.cpp) |
 | 1819A | [Constructive Problem](https://codeforces.com/contest/1819/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1819/A%20-%20Constructive%20Problem/solution.cpp) |
 | 1821B | [Sort the Subarray](https://codeforces.com/contest/1821/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1821/B%20-%20Sort%20the%20Subarray/solution.cpp) |
 | 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
+| 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
 | 1889A | [Qingshan Loves Strings 2](https://codeforces.com/contest/1889/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1889/A%20-%20Qingshan%20Loves%20Strings%202/solution.cpp) |
 | 1907F | [Shift and Reverse](https://codeforces.com/contest/1907/problem/F) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1907/F%20-%20Shift%20and%20Reverse/solution.cpp) |
+| 1915E | [Romantic Glasses](https://codeforces.com/contest/1915/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1915/E%20-%20Romantic%20Glasses/solution.cpp) |
 | 1918B | [Minimize Inversions](https://codeforces.com/contest/1918/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1918/B%20-%20Minimize%20Inversions/solution.cpp) |
+| 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
 | 2065C1 | [Skibidus and Fanum Tax (easy version)](https://codeforces.com/contest/2065/problem/C1) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/C1%20-%20Skibidus%20and%20Fanum%20Tax%20(easy%20version)/solution.cpp) |
 | 2065C2 | [Skibidus and Fanum Tax (hard version)](https://codeforces.com/contest/2065/problem/C2) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/C2%20-%20Skibidus%20and%20Fanum%20Tax%20(hard%20version)/solution.cpp) |
@@ -320,6 +354,7 @@
 | 1703E | [Mirror Grid](https://codeforces.com/contest/1703/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1703/E%20-%20Mirror%20Grid/solution.cpp) |
 | 1704C | [Virus](https://codeforces.com/contest/1704/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1704/C%20-%20Virus/solution.cpp) |
 | 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.cpp) |
+| 1846E1 | [Rudolf and Snowflakes (simple version)](https://codeforces.com/contest/1846/problem/E1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1846/E1%20-%20Rudolf%20and%20Snowflakes%20(simple%20version)/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
 | 1889A | [Qingshan Loves Strings 2](https://codeforces.com/contest/1889/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1889/A%20-%20Qingshan%20Loves%20Strings%202/solution.cpp) |
 | 1918B | [Minimize Inversions](https://codeforces.com/contest/1918/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1918/B%20-%20Minimize%20Inversions/solution.cpp) |
@@ -350,14 +385,18 @@
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
+| 1420B | [Rock and Lever](https://codeforces.com/contest/1420/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1420/B%20-%20Rock%20and%20Lever/solution.cpp) |
 | 1421A | [XORwice](https://codeforces.com/contest/1421/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1421/A%20-%20XORwice/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
+| 1487B | [Cat Cycle](https://codeforces.com/contest/1487/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1487/B%20-%20Cat%20Cycle/solution.cpp) |
+| 1497B | [M-arrays](https://codeforces.com/contest/1497/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1497/B%20-%20M-arrays/solution.cpp) |
 | 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1511B | [GCD Length](https://codeforces.com/contest/1511/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1511/B%20-%20GCD%20Length/solution.cpp) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
 | 1542C | [Strange Function](https://codeforces.com/contest/1542/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1542/C%20-%20Strange%20Function/solution.cpp) |
+| 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
 | 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1634B | [Fortune Telling](https://codeforces.com/contest/1634/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1634/B%20-%20Fortune%20Telling/solution.cpp) |
 | 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
@@ -368,13 +407,17 @@
 | 1742G | [Orray](https://codeforces.com/contest/1742/problem/G) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1742/G%20-%20Orray/solution.cpp) |
 | 1765M | [Minimum LCM](https://codeforces.com/contest/1765/problem/M) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1765/M%20-%20Minimum%20LCM/solution.cpp) |
 | 1787B | [Number Factorization](https://codeforces.com/contest/1787/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1787/B%20-%20Number%20Factorization/solution.cpp) |
+| 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1808B | [Playing in a Casino](https://codeforces.com/contest/1808/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1808/B%20-%20Playing%20in%20a%20Casino/solution.cpp) |
 | 1809C | [Sum on Subarrays](https://codeforces.com/contest/1809/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1809/C%20-%20Sum%20on%20Subarrays/solution.cpp) |
+| 1846E1 | [Rudolf and Snowflakes (simple version)](https://codeforces.com/contest/1846/problem/E1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1846/E1%20-%20Rudolf%20and%20Snowflakes%20(simple%20version)/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
+| 1857D | [Strong Vertices](https://codeforces.com/contest/1857/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1857/D%20-%20Strong%20Vertices/solution.cpp) |
 | 1872D | [Plus Minus Permutation](https://codeforces.com/contest/1872/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1872/D%20-%20Plus%20Minus%20Permutation/solution.cpp) |
 | 1881D | [Divide and Equalize](https://codeforces.com/contest/1881/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1881/D%20-%20Divide%20and%20Equalize/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
+| 1915E | [Romantic Glasses](https://codeforces.com/contest/1915/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1915/E%20-%20Romantic%20Glasses/solution.cpp) |
 | 1931D | [Divisible Pairs](https://codeforces.com/contest/1931/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1931/D%20-%20Divisible%20Pairs/solution.cpp) |
 | 2007C | [Dora and C++](https://codeforces.com/contest/2007/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2007/C%20-%20Dora%20and%20C%2B%2B/solution.cpp) |
 | 2072F | [Goodbye, Banker Life](https://codeforces.com/contest/2072/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2072/F%20-%20Goodbye%2C%20Banker%20Life/solution.cpp) |
@@ -391,6 +434,7 @@
 | 2134A | [Painting With Two Colors](https://codeforces.com/contest/2134/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2134/A%20-%20Painting%20With%20Two%20Colors/solution.cpp) |
 | 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.cpp) |
 | 2155A | [El fucho](https://codeforces.com/contest/2155/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2155/A%20-%20El%20fucho/solution.cpp) |
+| 2175B | [XOR Array](https://codeforces.com/contest/2175/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2175/B%20-%20XOR%20Array/solution.cpp) |
 | 2184D | [Unfair Game](https://codeforces.com/contest/2184/problem/D) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/D%20-%20Unfair%20Game/solution.cpp) |
 | 2238D | [Storming Arasaka](https://codeforces.com/contest/2238/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2238/D%20-%20Storming%20Arasaka/solution.cpp) |
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
@@ -410,6 +454,7 @@
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
+| 1487B | [Cat Cycle](https://codeforces.com/contest/1487/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1487/B%20-%20Cat%20Cycle/solution.cpp) |
 | 1511B | [GCD Length](https://codeforces.com/contest/1511/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1511/B%20-%20GCD%20Length/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
 | 1542C | [Strange Function](https://codeforces.com/contest/1542/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1542/C%20-%20Strange%20Function/solution.cpp) |
@@ -434,6 +479,7 @@
 | 384B | [Multitasking](https://codeforces.com/contest/384/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/384/B%20-%20Multitasking/solution.cpp) |
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 1539C | [Stable Groups](https://codeforces.com/contest/1539/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1539/C%20-%20Stable%20Groups/solution.cpp) |
+| 1703F | [Yet Another Problem About Pairs Satisfying an Inequality](https://codeforces.com/contest/1703/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1703/F%20-%20Yet%20Another%20Problem%20About%20Pairs%20Satisfying%20an%20Inequality/solution.cpp) |
 | 1704C | [Virus](https://codeforces.com/contest/1704/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1704/C%20-%20Virus/solution.cpp) |
 | 1729D | [Friends and the Restaurant](https://codeforces.com/contest/1729/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1729/D%20-%20Friends%20and%20the%20Restaurant/solution.cpp) |
 | 1742G | [Orray](https://codeforces.com/contest/1742/problem/G) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1742/G%20-%20Orray/solution.cpp) |
@@ -441,6 +487,7 @@
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
 | 1808B | [Playing in a Casino](https://codeforces.com/contest/1808/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1808/B%20-%20Playing%20in%20a%20Casino/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
+| 1857D | [Strong Vertices](https://codeforces.com/contest/1857/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1857/D%20-%20Strong%20Vertices/solution.cpp) |
 | 1907F | [Shift and Reverse](https://codeforces.com/contest/1907/problem/F) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1907/F%20-%20Shift%20and%20Reverse/solution.cpp) |
 | 1918B | [Minimize Inversions](https://codeforces.com/contest/1918/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1918/B%20-%20Minimize%20Inversions/solution.cpp) |
 | 2065D | [Skibidus and Sigma](https://codeforces.com/contest/2065/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/D%20-%20Skibidus%20and%20Sigma/solution.cpp) |
@@ -453,6 +500,7 @@
 | 677C | [Vanya and Label](https://codeforces.com/contest/677/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/677/C%20-%20Vanya%20and%20Label/solution.cpp) |
 | 1421C | [Palindromifier](https://codeforces.com/contest/1421/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1421/C%20-%20Palindromifier/solution.cpp) |
 | 1582C | [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1582/C%20-%20Grandma%20Capa%20Knits%20a%20Scarf/solution.cpp) |
+| 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
 | 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.cpp) |
 | 2065B | [Skibidus and Ohio](https://codeforces.com/contest/2065/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/B%20-%20Skibidus%20and%20Ohio/solution.cpp) |
 | 2086D | [Even String](https://codeforces.com/contest/2086/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2086/D%20-%20Even%20String/solution.cpp) |
@@ -469,6 +517,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1857D | [Strong Vertices](https://codeforces.com/contest/1857/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1857/D%20-%20Strong%20Vertices/solution.cpp) |
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
 
 ### two pointers
@@ -482,6 +531,8 @@
 | 1692E | [Binary Deque](https://codeforces.com/contest/1692/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1692/E%20-%20Binary%20Deque/solution.cpp) |
 | 1729D | [Friends and the Restaurant](https://codeforces.com/contest/1729/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1729/D%20-%20Friends%20and%20the%20Restaurant/solution.cpp) |
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
+| 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
+| 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.cpp) |
 
 ---
