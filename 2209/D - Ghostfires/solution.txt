@@ -1,0 +1,71 @@
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.util.StringTokenizer
+ 
+fun main() {
+    val reader = BufferedReader(InputStreamReader(System.`in`))
+    var tokenizer: StringTokenizer? = null
+    fun next(): String {
+        while (tokenizer == null || !tokenizer!!.hasMoreTokens()) {
+            val line = reader.readLine() ?: return ""
+            tokenizer = StringTokenizer(line)
+        }
+        return tokenizer!!.nextToken()
+    }
+ 
+    val tStr = next()
+    if (tStr.isEmpty()) return
+    val t = tStr.toInt()
+ 
+    val out = java.lang.StringBuilder()
+ 
+    for (test in 0 until t) {
+        val r = next().toInt()
+        val g = next().toInt()
+        val b = next().toInt()
+ 
+        val v = listOf(Pair(r, 'R'), Pair(g, 'G'), Pair(b, 'B')).sortedBy { it.first }
+        val x = v[0].first
+        val y = v[1].first
+        val z = v[2].first
+        val cx = v[0].second
+        val cy = v[1].second
+        val cz = v[2].second
+ 
+        val s = java.lang.StringBuilder()
+ 
+        if (z > x + y) {
+            for (i in 0 until x) { s.append(cz).append(cx) }
+            for (i in 0 until y) { s.append(cz).append(cy) }
+            s.append(cz)
+        } else {
+            val n = x + y + z
+            val cnt = mutableMapOf('R' to r, 'G' to g, 'B' to b)
+ 
+            for (i in 0 until n) {
+                var bestC = '\u0000'
+                var maxScore = -1
+ 
+                val c1 = if (i >= 1) s[i - 1] else '\u0000'
+                val c2 = if (i >= 2) s[i - 2] else '\u0000'
+                val c3 = if (i >= 3) s[i - 3] else '\u0000'
+ 
+                for (c in listOf('R', 'G', 'B')) {
+                    val count = cnt[c]!!
+                    if (count > 0 && c != c1 && c != c3) {
+                        val score = count * 2 + if (c == c2) 1 else 0
+                        if (score > maxScore) {
+                            maxScore = score
+                            bestC = c
+                        }
+                    }
+                }
+                s.append(bestC)
+                cnt[bestC] = cnt[bestC]!! - 1
+            }
+        }
+        out.append(s).append("
+")
+    }
+    print(out)
+}
