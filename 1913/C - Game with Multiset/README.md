@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/1913/problem/C" target="_blank" rel="noopener noreferrer">1913C — Game with Multiset</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1300 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1913C](https://codeforces.com/contest/1913/problem/C) |
+
+## Topics
+`binary search` `bitmasks` `brute force` `greedy`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. Game with Multiset</div><div class="time-limit"><div class="property-title">time limit per test</div>1.5 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>In this problem, you are initially given an empty multiset. You have to process two types of queries:</p><ol> <li> <span class="tex-font-style-tt">ADD</span> $$$x$$$ — add an element equal to $$$2^{x}$$$ to the multiset; </li><li> <span class="tex-font-style-tt">GET</span> $$$w$$$ — say whether it is possible to take the sum of some subset of the current multiset and get a value equal to $$$w$$$. </li></ol></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains one integer $$$m$$$ ($$$1 \le m \le 10^5$$$) — the number of queries.</p><p>Then $$$m$$$ lines follow, each of which contains two integers $$$t_i$$$, $$$v_i$$$, denoting the $$$i$$$-th query. If $$$t_i = 1$$$, then the $$$i$$$-th query is <span class="tex-font-style-tt">ADD</span> $$$v_i$$$ ($$$0 \le v_i \le 29$$$). If $$$t_i = 2$$$, then the $$$i$$$-th query is <span class="tex-font-style-tt">GET</span> $$$v_i$$$ ($$$0 \le v_i \le 10^9$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each <span class="tex-font-style-tt">GET</span> query, print <span class="tex-font-style-tt">YES</span> if it is possible to choose a subset with sum equal to $$$w$$$, or <span class="tex-font-style-tt">NO</span> if it is impossible.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006199371028504882" id="id0047710242099935585" class="input-output-copier">Copy</div></div><pre id="id006199371028504882"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-even test-example-line-0">1 0</div><div class="test-example-line test-example-line-even test-example-line-0">1 0</div><div class="test-example-line test-example-line-even test-example-line-0">1 0</div><div class="test-example-line test-example-line-even test-example-line-0">2 3</div><div class="test-example-line test-example-line-even test-example-line-0">2 4</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00580082231562815" id="id0028847620268698426" class="input-output-copier">Copy</div></div><pre id="id00580082231562815">YES
+NO
+</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00184082321832579" id="id007399129663981718" class="input-output-copier">Copy</div></div><pre id="id00184082321832579"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-even test-example-line-0">1 0</div><div class="test-example-line test-example-line-even test-example-line-0">1 1</div><div class="test-example-line test-example-line-even test-example-line-0">1 2</div><div class="test-example-line test-example-line-even test-example-line-0">1 10</div><div class="test-example-line test-example-line-even test-example-line-0">2 4</div><div class="test-example-line test-example-line-even test-example-line-0">2 6</div><div class="test-example-line test-example-line-even test-example-line-0">2 7</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0011843394313848554" id="id0030125859580092207" class="input-output-copier">Copy</div></div><pre id="id0011843394313848554">YES
+YES
+YES
+</pre></div></div></div>
