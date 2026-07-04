@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/1978/problem/A" target="_blank" rel="noopener noreferrer">1978A — Alice and Books</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1978A](https://codeforces.com/contest/1978/problem/A) |
+
+## Topics
+`constructive algorithms` `greedy` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Alice and Books</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Alice has $$$n$$$ books. The $$$1$$$-st book contains $$$a_1$$$ pages, the $$$2$$$-nd book contains $$$a_2$$$ pages, $$$\ldots$$$, the $$$n$$$-th book contains $$$a_n$$$ pages. Alice does the following:</p><ul><li> She divides all the books into two non-empty piles. Thus, each book ends up in exactly one of the two piles.</li><li> Alice reads one book with the <span class="tex-font-style-bf">highest number</span> in each pile.</li></ul><p>Alice loves reading very much. Help her find the maximum total number of pages she can read by dividing the books into two piles.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test consists of multiple test cases. The first line contains a single integer $$$t$$$ ($$$1 \le t \le 500$$$) — the number of test cases. The description of the test cases follows.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$2 \le n \le 100$$$) — the number of books Alice has.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$1 \le a_i \le 10^9$$$) — the number of pages in each book.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the maximum number of pages Alice can read.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005543751305358373" id="id00316249707493231" class="input-output-copier">Copy</div></div><pre id="id005543751305358373"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">2</div><div class="test-example-line test-example-line-odd test-example-line-1">1 1</div><div class="test-example-line test-example-line-even test-example-line-2">4</div><div class="test-example-line test-example-line-even test-example-line-2">2 3 3 1</div><div class="test-example-line test-example-line-odd test-example-line-3">5</div><div class="test-example-line test-example-line-odd test-example-line-3">2 2 3 2 2</div><div class="test-example-line test-example-line-even test-example-line-4">2</div><div class="test-example-line test-example-line-even test-example-line-4">10 3</div><div class="test-example-line test-example-line-odd test-example-line-5">3</div><div class="test-example-line test-example-line-odd test-example-line-5">1 2 3</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0047398350405393674" id="id00210150133231363" class="input-output-copier">Copy</div></div><pre id="id0047398350405393674">2
+4
+5
+13
+5
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, Alice can put book number $$$1$$$ in the first pile, and book number $$$2$$$ in the second pile. Then she will read $$$a_1 + a_2 = 1 + 1 = 2$$$ pages.</p><p>In the second test case, Alice can put books with numbers $$$2$$$ and $$$3$$$ in the first pile, and books with numbers $$$1$$$ and $$$4$$$ in the second pile. Then she will read the book with the highest number $$$3$$$ from the first pile, and the book with the highest number $$$4$$$ from the second pile. Then she will read $$$a_3 + a_4 = 3 + 1 = 4$$$ pages.</p></div>
