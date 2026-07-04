@@ -1,0 +1,53 @@
+import java.util.Scanner
+ 
+fun main() {
+    val sc = Scanner(System.`in`)
+    if (!sc.hasNextInt()) return
+    
+    repeat(sc.nextInt()) {
+        var k = sc.nextInt()
+        
+        if (k == 1) {
+            println("YES
+1
+*
+.")
+            return@repeat
+        }
+        
+        if (k == 6 || (k >= 6 && (k - 6) % 5 == 0)) {
+            println("YES
+${4 + (3 * (k - 6) / 5)}")
+            k -= 6
+            print("..")
+            print(".".repeat(3 * (k / 5)))
+            println("..")
+            
+            print("*.")
+            for (i in 0 until 3 * (k / 5)) {
+                print(if (i % 3 != 1) "." else "*")
+            }
+            println(".*")
+            return@repeat
+        }
+        
+        if (k % 5 == 1 || k % 5 == 2 || k % 5 == 4) {
+            println("NO")
+            return@repeat
+        }
+        
+        println("YES")
+        val isThree = if (k % 5 == 3) 1 else 0
+        println(3 * (k / 5) + 2 * isThree)
+        
+        if (k % 5 == 3) print("*.")
+        print(".".repeat(3 * (k / 5)))
+        println()
+        
+        if (k % 5 == 3) print("..")
+        for (i in 0 until 3 * (k / 5)) {
+            print(if (i % 3 != 1) "." else "*")
+        }
+        println()
+    }
+}
