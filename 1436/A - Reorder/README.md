@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1436/problem/A" target="_blank" rel="noopener noreferrer">1436A — Reorder</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1436A](https://codeforces.com/contest/1436/problem/A) |
+
+## Topics
+`math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Reorder</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>For a given array $$$a$$$ consisting of $$$n$$$ integers and a given integer $$$m$$$ find if it is possible to reorder elements of the array $$$a$$$ in such a way that $$$\sum_{i=1}^{n}{\sum_{j=i}^{n}{\frac{a_j}{j}}}$$$ equals $$$m$$$? It is forbidden to delete elements as well as insert new elements. Please note that no rounding occurs during division, for example, $$$\frac{5}{2}=2.5$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer $$$t$$$ — the number of test cases ($$$1 \le t \le 100$$$). The test cases follow, each in two lines.</p><p>The first line of a test case contains two integers $$$n$$$ and $$$m$$$ ($$$1 \le n \le 100$$$, $$$0 \le m \le 10^6$$$). The second line contains integers $$$a_1, a_2, \ldots, a_n$$$ ($$$0 \le a_i \le 10^6$$$) — the elements of the array.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case print "<span class="tex-font-style-tt">YES</span>", if it is possible to reorder the elements of the array in such a way that the given formula gives the given value, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005138146903884279" id="id009355966087150264" class="input-output-copier">Copy</div></div><pre id="id005138146903884279">2
+3 8
+2 5 1
+4 4
+0 1 2 3
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0039910419731381475" id="id0015688050124824549" class="input-output-copier">Copy</div></div><pre id="id0039910419731381475">YES
+NO
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case one of the reorders could be $$$[1, 2, 5]$$$. The sum is equal to $$$(\frac{1}{1} + \frac{2}{2} + \frac{5}{3}) + (\frac{2}{2} + \frac{5}{3}) + (\frac{5}{3}) = 8$$$. The brackets denote the inner sum $$$\sum_{j=i}^{n}{\frac{a_j}{j}}$$$, while the summation of brackets corresponds to the sum over $$$i$$$.</p></div>
