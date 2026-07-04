@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/2122/problem/C" target="_blank" rel="noopener noreferrer">2122C — Manhattan Pairs</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1700 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2122C](https://codeforces.com/contest/2122/problem/C) |
+
+## Topics
+`constructive algorithms` `geometry` `greedy` `math` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. Manhattan Pairs</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p> </p><p>You are given $$$n$$$ points $$$(x_i, y_i)$$$ on a 2D plane, where $$$n$$$ is even. Select $$$\tfrac{n}{2}$$$ disjoint pairs $$$(a_i, b_i)$$$ to maximize the sum of Manhattan distances between points in pairs. In other words, maximize $$$$$$\sum_{i=1}^{n/2} |x_{a_i} - x_{b_i}| + |y_{a_i} - y_{b_i}|.$$$$$$</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 10^4$$$). The description of the test cases follows. </p><p>The first line of each test case contains a single even integer $$$n$$$ ($$$2 \leq n \leq 2 \cdot 10^5$$$) — the number of points.</p><p>The $$$i$$$-th of the next $$$n$$$ lines contains two integers $$$x_i$$$ and $$$y_i$$$ ($$$-10^6 \le x_i, y_i \le 10^6$$$) — the coordinates of the $$$i$$$-th point.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2 \cdot 10^5$$$. </p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output $$$\tfrac{n}{2}$$$ lines, the $$$i$$$-th line containing two integers $$$a_i$$$ and $$$b_i$$$ — the indices of points in the $$$i$$$-th pair.</p><p>If there are multiple solutions, print any of them.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0044818450271888555" id="id009715386760260428" class="input-output-copier">Copy</div></div><pre id="id0044818450271888555"><div class="test-example-line test-example-line-even test-example-line-0">2</div><div class="test-example-line test-example-line-odd test-example-line-1">4</div><div class="test-example-line test-example-line-odd test-example-line-1">1 1</div><div class="test-example-line test-example-line-odd test-example-line-1">3 0</div><div class="test-example-line test-example-line-odd test-example-line-1">4 2</div><div class="test-example-line test-example-line-odd test-example-line-1">3 4</div><div class="test-example-line test-example-line-even test-example-line-2">10</div><div class="test-example-line test-example-line-even test-example-line-2">-1 -1</div><div class="test-example-line test-example-line-even test-example-line-2">-1 2</div><div class="test-example-line test-example-line-even test-example-line-2">-2 -2</div><div class="test-example-line test-example-line-even test-example-line-2">-2 0</div><div class="test-example-line test-example-line-even test-example-line-2">0 2</div><div class="test-example-line test-example-line-even test-example-line-2">2 -3</div><div class="test-example-line test-example-line-even test-example-line-2">-4 -4</div><div class="test-example-line test-example-line-even test-example-line-2">-4 -2</div><div class="test-example-line test-example-line-even test-example-line-2">0 1</div><div class="test-example-line test-example-line-even test-example-line-2">-4 -2</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0040861299532713813" id="id0033273735193767273" class="input-output-copier">Copy</div></div><pre id="id0040861299532713813">4 1
+2 3
+8 1
+9 10
+7 5
+2 3
+6 4
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, an optimal solution is to select the pairs $$$(1, 4)$$$ and $$$(2, 3)$$$, which achieves a distance sum of $$$5 + 3 = 8$$$.</p><p>In the second test case, an optimal solution is to select the pairs $$$(1, 8)$$$, $$$(9, 10)$$$, $$$(5, 7)$$$, $$$(2, 3)$$$, $$$(4, 6)$$$, which achieves a distance sum of $$$4 + 7 + 10 + 5 + 7 = 33$$$.</p></div>
