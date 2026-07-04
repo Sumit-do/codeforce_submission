@@ -1,0 +1,41 @@
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.util.StringTokenizer
+ 
+fun main() {
+    // Fast I/O setup
+    val reader = BufferedReader(InputStreamReader(System.`in`))
+    var tokenizer = StringTokenizer("")
+ 
+    // Function to read the next word/number
+    fun next(): String {
+        while (!tokenizer.hasMoreTokens()) {
+            val line = reader.readLine() ?: return ""
+            tokenizer = StringTokenizer(line)
+        }
+        return tokenizer.nextToken()
+    }
+ 
+    // Read number of test cases
+    val t = next().toInt()
+ 
+    repeat(t) {
+        val n = next().toLong()
+        val k = next().toLong()
+        
+        var i = 0
+        
+        // Loop while i < n
+        // We cast i to Long for the comparison with n
+        while (i.toLong() < n) {
+            // ((k >> i) & 1) == 1 translation:
+            // 1. 'shr' is shift right
+            // 2. 'and' is bitwise AND
+            // 3. We use 1L to ensure we are ANDing with a Long
+            if (((k shr i) and 1L) == 1L) break
+            i++
+        }
+        
+        println(n - i)
+    }
+}
