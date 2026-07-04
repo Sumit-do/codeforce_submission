@@ -6,43 +6,50 @@
 
 | Total Problems | Topics |
 |---|---|
-| 322 | 29 |
+| 337 | 30 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [*special](#special) (1)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (8)
-- [binary search](#binary-search) (47)
-- [bitmasks](#bitmasks) (42)
-- [brute force](#brute-force) (60)
+- [Uncategorized](#uncategorized) (11)
+- [binary search](#binary-search) (52)
+- [bitmasks](#bitmasks) (45)
+- [brute force](#brute-force) (61)
 - [combinatorics](#combinatorics) (20)
-- [constructive algorithms](#constructive-algorithms) (76)
-- [data structures](#data-structures) (43)
+- [constructive algorithms](#constructive-algorithms) (80)
+- [data structures](#data-structures) (46)
 - [dfs and similar](#dfs-and-similar) (12)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (60)
+- [dp](#dp) (62)
 - [dsu](#dsu) (6)
 - [fft](#fft) (1)
 - [flows](#flows) (1)
 - [games](#games) (9)
 - [geometry](#geometry) (3)
 - [graphs](#graphs) (10)
-- [greedy](#greedy) (167)
+- [greedy](#greedy) (170)
 - [hashing](#hashing) (5)
-- [implementation](#implementation) (78)
-- [math](#math) (144)
+- [implementation](#implementation) (80)
+- [math](#math) (150)
 - [matrices](#matrices) (1)
-- [number theory](#number-theory) (49)
+- [number theory](#number-theory) (50)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (40)
+- [sortings](#sortings) (42)
 - [strings](#strings) (25)
-- [ternary search](#ternary-search) (1)
+- [ternary search](#ternary-search) (2)
 - [trees](#trees) (9)
 - [two pointers](#two-pointers) (32)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1958C | [Firewood](https://codeforces.com/contest/1958/problem/C) | 1500 | [Kotlin 1.7](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1958/C%20-%20Firewood/solution.txt) |
 
 ### 2-sat
 
@@ -55,6 +62,9 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1077C | [Good Array](https://codeforces.com/contest/1077/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1077/C%20-%20Good%20Array/solution.cpp) |
+| 2188C | [Restricted Sorting](https://codeforces.com/contest/2188/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2188/C%20-%20Restricted%20Sorting/solution.cpp) |
+| 2191C | [Sorting Game](https://codeforces.com/contest/2191/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2191/C%20-%20Sorting%20Game/solution.cpp) |
+| 2191D1 | [Sub-RBS (Easy Version)](https://codeforces.com/contest/2191/problem/D1) | Unrated | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2191/D1%20-%20Sub-RBS%20(Easy%20Version)/solution.cpp) |
 | 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 | 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
 | 2241C | [RemovevomeR](https://codeforces.com/contest/2241/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/C%20-%20RemovevomeR/solution.cpp) |
@@ -86,13 +96,18 @@
 | 1742E | [Scuza](https://codeforces.com/contest/1742/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1742/E%20-%20Scuza/solution.cpp) |
 | 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
+| 1872E | [Data Structures Fan](https://codeforces.com/contest/1872/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1872/E%20-%20Data%20Structures%20Fan/solution.cpp) |
 | 1878E | [Iva & Pav](https://codeforces.com/contest/1878/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1878/E%20-%20Iva%20%26%20Pav/solution.cpp) |
 | 1883G1 | [Dances (Easy version)](https://codeforces.com/contest/1883/problem/G1) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1883/G1%20-%20Dances%20(Easy%20version)/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 1907D | [Jumping Through Segments](https://codeforces.com/contest/1907/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1907/D%20-%20Jumping%20Through%20Segments/solution.cpp) |
 | 1913C | [Game with Multiset](https://codeforces.com/contest/1913/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1913/C%20-%20Game%20with%20Multiset/solution.cpp) |
+| 1926E | [Vlad and an Odd Ordering](https://codeforces.com/contest/1926/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1926/E%20-%20Vlad%20and%20an%20Odd%20Ordering/solution.cpp) |
 | 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
+| 1933E | [Turtle vs. Rabbit Race: Optimal Trainings](https://codeforces.com/contest/1933/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1933/E%20-%20Turtle%20vs.%20Rabbit%20Race%3A%20Optimal%20Trainings/solution.cpp) |
+| 1971E | [Find the Car](https://codeforces.com/contest/1971/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1971/E%20-%20Find%20the%20Car/solution.cpp) |
 | 1973B | [Cat, Fox and the Lonely Array](https://codeforces.com/contest/1973/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1973/B%20-%20Cat%2C%20Fox%20and%20the%20Lonely%20Array/solution.cpp) |
+| 1985F | [Final Boss](https://codeforces.com/contest/1985/problem/F) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1985/F%20-%20Final%20Boss/solution.cpp) |
 | 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
 | 2026C | [Action Figures](https://codeforces.com/contest/2026/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2026/C%20-%20Action%20Figures/solution.cpp) |
 | 2065C1 | [Skibidus and Fanum Tax (easy version)](https://codeforces.com/contest/2065/problem/C1) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/C1%20-%20Skibidus%20and%20Fanum%20Tax%20(easy%20version)/solution.cpp) |
@@ -142,10 +157,12 @@
 | 1726B | [Mainak and Interesting Sequence](https://codeforces.com/contest/1726/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1726/B%20-%20Mainak%20and%20Interesting%20Sequence/solution.cpp) |
 | 1742G | [Orray](https://codeforces.com/contest/1742/problem/G) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1742/G%20-%20Orray/solution.cpp) |
 | 1775B | [Gardener and the Array](https://codeforces.com/contest/1775/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1775/B%20-%20Gardener%20and%20the%20Array/solution.cpp) |
+| 1872E | [Data Structures Fan](https://codeforces.com/contest/1872/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1872/E%20-%20Data%20Structures%20Fan/solution.cpp) |
 | 1878E | [Iva & Pav](https://codeforces.com/contest/1878/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1878/E%20-%20Iva%20%26%20Pav/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
 | 1913C | [Game with Multiset](https://codeforces.com/contest/1913/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1913/C%20-%20Game%20with%20Multiset/solution.cpp) |
 | 1926D | [Vlad and Division](https://codeforces.com/contest/1926/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1926/D%20-%20Vlad%20and%20Division/solution.cpp) |
+| 1926E | [Vlad and an Odd Ordering](https://codeforces.com/contest/1926/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1926/E%20-%20Vlad%20and%20an%20Odd%20Ordering/solution.cpp) |
 | 1973B | [Cat, Fox and the Lonely Array](https://codeforces.com/contest/1973/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1973/B%20-%20Cat%2C%20Fox%20and%20the%20Lonely%20Array/solution.cpp) |
 | 1988C | [Increasing Sequence with Fixed OR](https://codeforces.com/contest/1988/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1988/C%20-%20Increasing%20Sequence%20with%20Fixed%20OR/solution.cpp) |
 | 2057C | [Trip to the Olympiad](https://codeforces.com/contest/2057/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2057/C%20-%20Trip%20to%20the%20Olympiad/solution.cpp) |
@@ -161,6 +178,7 @@
 | 2176B | [Optimal Shifts](https://codeforces.com/contest/2176/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2176/B%20-%20Optimal%20Shifts/solution.cpp) |
 | 2179D | [Blackslex and Penguin Civilization](https://codeforces.com/contest/2179/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2179/D%20-%20Blackslex%20and%20Penguin%20Civilization/solution.cpp) |
 | 2180C | [XOR-factorization](https://codeforces.com/contest/2180/problem/C) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2180/C%20-%20XOR-factorization/solution.cpp) |
+| 2189C1 | [XOR Convenience (Easy Version)](https://codeforces.com/contest/2189/problem/C1) | 1300 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2189/C1%20-%20XOR%20Convenience%20(Easy%20Version)/solution.cpp) |
 
 ### brute force
 
@@ -195,6 +213,7 @@
 | 1932C | [LR-remainders](https://codeforces.com/contest/1932/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1932/C%20-%20LR-remainders/solution.cpp) |
 | 1950E | [Nearly Shortest Repeating Substring](https://codeforces.com/contest/1950/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1950/E%20-%20Nearly%20Shortest%20Repeating%20Substring/solution.cpp) |
 | 1967B1 | [Reverse Card (Easy Version)](https://codeforces.com/contest/1967/problem/B1) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1967/B1%20-%20Reverse%20Card%20(Easy%20Version)/solution.cpp) |
+| 1990C | [Mad MAD Sum](https://codeforces.com/contest/1990/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1990/C%20-%20Mad%20MAD%20Sum/solution.cpp) |
 | 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
 | 2008E | [Alternating String](https://codeforces.com/contest/2008/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2008/E%20-%20Alternating%20String/solution.cpp) |
 | 2026C | [Action Figures](https://codeforces.com/contest/2026/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2026/C%20-%20Action%20Figures/solution.cpp) |
@@ -281,6 +300,7 @@
 | 1774C | [Ice and Fire](https://codeforces.com/contest/1774/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1774/C%20-%20Ice%20and%20Fire/solution.cpp) |
 | 1775B | [Gardener and the Array](https://codeforces.com/contest/1775/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1775/B%20-%20Gardener%20and%20the%20Array/solution.cpp) |
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
+| 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.cpp) |
 | 1809C | [Sum on Subarrays](https://codeforces.com/contest/1809/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1809/C%20-%20Sum%20on%20Subarrays/solution.cpp) |
 | 1837D | [Bracket Coloring](https://codeforces.com/contest/1837/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1837/D%20-%20Bracket%20Coloring/solution.cpp) |
 | 1860A | [Not a Substring](https://codeforces.com/contest/1860/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1860/A%20-%20Not%20a%20Substring/solution.cpp) |
@@ -330,8 +350,11 @@
 | 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.cpp) |
 | 2183B | [Yet Another MEX Problem](https://codeforces.com/contest/2183/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2183/B%20-%20Yet%20Another%20MEX%20Problem/solution.cpp) |
 | 2183D1 | [Tree Coloring (Easy Version)](https://codeforces.com/contest/2183/problem/D1) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2183/D1%20-%20Tree%20Coloring%20(Easy%20Version)/solution.cpp) |
+| 2188A | [Divisible Permutation](https://codeforces.com/contest/2188/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2188/A%20-%20Divisible%20Permutation/solution.cpp) |
 | 2189B | [The Curse of the Frog](https://codeforces.com/contest/2189/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2189/B%20-%20The%20Curse%20of%20the%20Frog/solution.cpp) |
+| 2189C1 | [XOR Convenience (Easy Version)](https://codeforces.com/contest/2189/problem/C1) | 1300 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2189/C1%20-%20XOR%20Convenience%20(Easy%20Version)/solution.cpp) |
 | 2191A | [Array Coloring](https://codeforces.com/contest/2191/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2191/A%20-%20Array%20Coloring/solution.cpp) |
+| 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.cpp) |
 
 ### data structures
 
@@ -355,15 +378,18 @@
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
+| 1872E | [Data Structures Fan](https://codeforces.com/contest/1872/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1872/E%20-%20Data%20Structures%20Fan/solution.cpp) |
 | 1878E | [Iva & Pav](https://codeforces.com/contest/1878/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1878/E%20-%20Iva%20%26%20Pav/solution.cpp) |
 | 1904C | [Array Game](https://codeforces.com/contest/1904/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1904/C%20-%20Array%20Game/solution.cpp) |
 | 1915E | [Romantic Glasses](https://codeforces.com/contest/1915/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1915/E%20-%20Romantic%20Glasses/solution.cpp) |
 | 1918B | [Minimize Inversions](https://codeforces.com/contest/1918/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1918/B%20-%20Minimize%20Inversions/solution.cpp) |
 | 1919C | [Grouping Increases](https://codeforces.com/contest/1919/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1919/C%20-%20Grouping%20Increases/solution.cpp) |
+| 1926E | [Vlad and an Odd Ordering](https://codeforces.com/contest/1926/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1926/E%20-%20Vlad%20and%20an%20Odd%20Ordering/solution.cpp) |
 | 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 1932C | [LR-remainders](https://codeforces.com/contest/1932/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1932/C%20-%20LR-remainders/solution.cpp) |
 | 1973B | [Cat, Fox and the Lonely Array](https://codeforces.com/contest/1973/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1973/B%20-%20Cat%2C%20Fox%20and%20the%20Lonely%20Array/solution.cpp) |
 | 1974C | [Beautiful Triple Pairs](https://codeforces.com/contest/1974/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1974/C%20-%20Beautiful%20Triple%20Pairs/solution.cpp) |
+| 1985F | [Final Boss](https://codeforces.com/contest/1985/problem/F) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1985/F%20-%20Final%20Boss/solution.cpp) |
 | 2008E | [Alternating String](https://codeforces.com/contest/2008/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2008/E%20-%20Alternating%20String/solution.cpp) |
 | 2026C | [Action Figures](https://codeforces.com/contest/2026/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2026/C%20-%20Action%20Figures/solution.cpp) |
 | 2037D | [Sharky Surfing](https://codeforces.com/contest/2037/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2037/D%20-%20Sharky%20Surfing/solution.cpp) |
@@ -428,10 +454,12 @@
 | 1829D | [Gold Rush](https://codeforces.com/contest/1829/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1829/D%20-%20Gold%20Rush/solution.cpp) |
 | 1830A | [Copil Copac Draws Trees](https://codeforces.com/contest/1830/problem/A) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1830/A%20-%20Copil%20Copac%20Draws%20Trees/solution.cpp) |
 | 1842C | [Tenzing and Balls](https://codeforces.com/contest/1842/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1842/C%20-%20Tenzing%20and%20Balls/solution.cpp) |
+| 1872E | [Data Structures Fan](https://codeforces.com/contest/1872/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1872/E%20-%20Data%20Structures%20Fan/solution.cpp) |
 | 1879C | [Make it Alternating](https://codeforces.com/contest/1879/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1879/C%20-%20Make%20it%20Alternating/solution.cpp) |
 | 1881E | [Block Sequence](https://codeforces.com/contest/1881/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1881/E%20-%20Block%20Sequence/solution.cpp) |
 | 1895C | [Torn Lucky Ticket](https://codeforces.com/contest/1895/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1895/C%20-%20Torn%20Lucky%20Ticket/solution.cpp) |
 | 1919C | [Grouping Increases](https://codeforces.com/contest/1919/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1919/C%20-%20Grouping%20Increases/solution.cpp) |
+| 1926E | [Vlad and an Odd Ordering](https://codeforces.com/contest/1926/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1926/E%20-%20Vlad%20and%20an%20Odd%20Ordering/solution.cpp) |
 | 1927D | [Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1927/D%20-%20Find%20the%20Different%20Ones!/solution.cpp) |
 | 1945D | [Seraphim the Owl](https://codeforces.com/contest/1945/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1945/D%20-%20Seraphim%20the%20Owl/solution.cpp) |
 | 1984C1 | [Magnitude (Easy Version)](https://codeforces.com/contest/1984/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1984/C1%20-%20Magnitude%20(Easy%20Version)/solution.cpp) |
@@ -588,6 +616,7 @@
 | 1787B | [Number Factorization](https://codeforces.com/contest/1787/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1787/B%20-%20Number%20Factorization/solution.cpp) |
 | 1790D | [Matryoshkas](https://codeforces.com/contest/1790/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1790/D%20-%20Matryoshkas/solution.cpp) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
+| 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.cpp) |
 | 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1809C | [Sum on Subarrays](https://codeforces.com/contest/1809/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1809/C%20-%20Sum%20on%20Subarrays/solution.cpp) |
 | 1819A | [Constructive Problem](https://codeforces.com/contest/1819/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1819/A%20-%20Constructive%20Problem/solution.cpp) |
@@ -613,6 +642,7 @@
 | 1978A | [Alice and Books](https://codeforces.com/contest/1978/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1978/A%20-%20Alice%20and%20Books/solution.cpp) |
 | 1984C1 | [Magnitude (Easy Version)](https://codeforces.com/contest/1984/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1984/C1%20-%20Magnitude%20(Easy%20Version)/solution.cpp) |
 | 1988C | [Increasing Sequence with Fixed OR](https://codeforces.com/contest/1988/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1988/C%20-%20Increasing%20Sequence%20with%20Fixed%20OR/solution.cpp) |
+| 1990C | [Mad MAD Sum](https://codeforces.com/contest/1990/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1990/C%20-%20Mad%20MAD%20Sum/solution.cpp) |
 | 2001A | [Make All Equal](https://codeforces.com/contest/2001/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2001/A%20-%20Make%20All%20Equal/solution.cpp) |
 | 2003D1 | [Turtle and a MEX Problem (Easy Version)](https://codeforces.com/contest/2003/problem/D1) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2003/D1%20-%20Turtle%20and%20a%20MEX%20Problem%20(Easy%20Version)/solution.cpp) |
 | 2008E | [Alternating String](https://codeforces.com/contest/2008/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2008/E%20-%20Alternating%20String/solution.cpp) |
@@ -697,6 +727,7 @@
 | 2183B | [Yet Another MEX Problem](https://codeforces.com/contest/2183/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2183/B%20-%20Yet%20Another%20MEX%20Problem/solution.cpp) |
 | 2183C | [War Strategy](https://codeforces.com/contest/2183/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2183/C%20-%20War%20Strategy/solution.cpp) |
 | 2183D1 | [Tree Coloring (Easy Version)](https://codeforces.com/contest/2183/problem/D1) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2183/D1%20-%20Tree%20Coloring%20(Easy%20Version)/solution.cpp) |
+| 2188B | [Seats](https://codeforces.com/contest/2188/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2188/B%20-%20Seats/solution.cpp) |
 | 2189A | [Table with Numbers](https://codeforces.com/contest/2189/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2189/A%20-%20Table%20with%20Numbers/solution.cpp) |
 | 2189B | [The Curse of the Frog](https://codeforces.com/contest/2189/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2189/B%20-%20The%20Curse%20of%20the%20Frog/solution.cpp) |
 | 2238D | [Storming Arasaka](https://codeforces.com/contest/2238/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2238/D%20-%20Storming%20Arasaka/solution.cpp) |
@@ -752,7 +783,9 @@
 | 1889A | [Qingshan Loves Strings 2](https://codeforces.com/contest/1889/problem/A) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1889/A%20-%20Qingshan%20Loves%20Strings%202/solution.cpp) |
 | 1895C | [Torn Lucky Ticket](https://codeforces.com/contest/1895/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1895/C%20-%20Torn%20Lucky%20Ticket/solution.cpp) |
 | 1918B | [Minimize Inversions](https://codeforces.com/contest/1918/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1918/B%20-%20Minimize%20Inversions/solution.cpp) |
+| 1926E | [Vlad and an Odd Ordering](https://codeforces.com/contest/1926/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1926/E%20-%20Vlad%20and%20an%20Odd%20Ordering/solution.cpp) |
 | 1932C | [LR-remainders](https://codeforces.com/contest/1932/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1932/C%20-%20LR-remainders/solution.cpp) |
+| 1933E | [Turtle vs. Rabbit Race: Optimal Trainings](https://codeforces.com/contest/1933/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1933/E%20-%20Turtle%20vs.%20Rabbit%20Race%3A%20Optimal%20Trainings/solution.cpp) |
 | 1950A | [Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1950/A%20-%20Stair%2C%20Peak%2C%20or%20Neither%3F/solution.cpp) |
 | 1950B | [Upscaling](https://codeforces.com/contest/1950/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1950/B%20-%20Upscaling/solution.cpp) |
 | 1950E | [Nearly Shortest Repeating Substring](https://codeforces.com/contest/1950/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1950/E%20-%20Nearly%20Shortest%20Repeating%20Substring/solution.cpp) |
@@ -854,6 +887,7 @@
 | 1771A | [Hossam and Combinatorics](https://codeforces.com/contest/1771/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1771/A%20-%20Hossam%20and%20Combinatorics/solution.cpp) |
 | 1772C | [Different Differences](https://codeforces.com/contest/1772/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1772/C%20-%20Different%20Differences/solution.cpp) |
 | 1787B | [Number Factorization](https://codeforces.com/contest/1787/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1787/B%20-%20Number%20Factorization/solution.cpp) |
+| 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.cpp) |
 | 1794C | [Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1794/C%20-%20Scoring%20Subsequences/solution.cpp) |
 | 1808B | [Playing in a Casino](https://codeforces.com/contest/1808/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1808/B%20-%20Playing%20in%20a%20Casino/solution.cpp) |
 | 1809C | [Sum on Subarrays](https://codeforces.com/contest/1809/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1809/C%20-%20Sum%20on%20Subarrays/solution.cpp) |
@@ -866,13 +900,17 @@
 | 1895C | [Torn Lucky Ticket](https://codeforces.com/contest/1895/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1895/C%20-%20Torn%20Lucky%20Ticket/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
 | 1915E | [Romantic Glasses](https://codeforces.com/contest/1915/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1915/E%20-%20Romantic%20Glasses/solution.cpp) |
+| 1926E | [Vlad and an Odd Ordering](https://codeforces.com/contest/1926/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1926/E%20-%20Vlad%20and%20an%20Odd%20Ordering/solution.cpp) |
 | 1931D | [Divisible Pairs](https://codeforces.com/contest/1931/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1931/D%20-%20Divisible%20Pairs/solution.cpp) |
 | 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.cpp) |
 | 1932C | [LR-remainders](https://codeforces.com/contest/1932/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1932/C%20-%20LR-remainders/solution.cpp) |
+| 1933E | [Turtle vs. Rabbit Race: Optimal Trainings](https://codeforces.com/contest/1933/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1933/E%20-%20Turtle%20vs.%20Rabbit%20Race%3A%20Optimal%20Trainings/solution.cpp) |
 | 1967B1 | [Reverse Card (Easy Version)](https://codeforces.com/contest/1967/problem/B1) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1967/B1%20-%20Reverse%20Card%20(Easy%20Version)/solution.cpp) |
+| 1971E | [Find the Car](https://codeforces.com/contest/1971/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1971/E%20-%20Find%20the%20Car/solution.cpp) |
 | 1973B | [Cat, Fox and the Lonely Array](https://codeforces.com/contest/1973/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1973/B%20-%20Cat%2C%20Fox%20and%20the%20Lonely%20Array/solution.cpp) |
 | 1977A | [Little Nikita](https://codeforces.com/contest/1977/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1977/A%20-%20Little%20Nikita/solution.cpp) |
 | 1984C1 | [Magnitude (Easy Version)](https://codeforces.com/contest/1984/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1984/C1%20-%20Magnitude%20(Easy%20Version)/solution.cpp) |
+| 1990C | [Mad MAD Sum](https://codeforces.com/contest/1990/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1990/C%20-%20Mad%20MAD%20Sum/solution.cpp) |
 | 1996D | [Fun](https://codeforces.com/contest/1996/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1996/D%20-%20Fun/solution.cpp) |
 | 1999E | [Triple Operations](https://codeforces.com/contest/1999/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1999/E%20-%20Triple%20Operations/solution.cpp) |
 | 1999F | [Expected Median](https://codeforces.com/contest/1999/problem/F) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1999/F%20-%20Expected%20Median/solution.cpp) |
@@ -940,6 +978,7 @@
 | 2184C | [Huge Pile](https://codeforces.com/contest/2184/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/C%20-%20Huge%20Pile/solution.cpp) |
 | 2184D | [Unfair Game](https://codeforces.com/contest/2184/problem/D) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/D%20-%20Unfair%20Game/solution.cpp) |
 | 2189B | [The Curse of the Frog](https://codeforces.com/contest/2189/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2189/B%20-%20The%20Curse%20of%20the%20Frog/solution.cpp) |
+| 2189C1 | [XOR Convenience (Easy Version)](https://codeforces.com/contest/2189/problem/C1) | 1300 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2189/C1%20-%20XOR%20Convenience%20(Easy%20Version)/solution.cpp) |
 | 2238D | [Storming Arasaka](https://codeforces.com/contest/2238/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2238/D%20-%20Storming%20Arasaka/solution.cpp) |
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
 
@@ -980,6 +1019,7 @@
 | 1876B | [Effects of Anti Pimples](https://codeforces.com/contest/1876/problem/B) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1876/B%20-%20Effects%20of%20Anti%20Pimples/solution.cpp) |
 | 1881D | [Divide and Equalize](https://codeforces.com/contest/1881/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1881/D%20-%20Divide%20and%20Equalize/solution.cpp) |
 | 1909B | [Make Almost Equal With Mod](https://codeforces.com/contest/1909/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1909/B%20-%20Make%20Almost%20Equal%20With%20Mod/solution.cpp) |
+| 1926E | [Vlad and an Odd Ordering](https://codeforces.com/contest/1926/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1926/E%20-%20Vlad%20and%20an%20Odd%20Ordering/solution.cpp) |
 | 1931D | [Divisible Pairs](https://codeforces.com/contest/1931/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1931/D%20-%20Divisible%20Pairs/solution.cpp) |
 | 1950E | [Nearly Shortest Repeating Substring](https://codeforces.com/contest/1950/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1950/E%20-%20Nearly%20Shortest%20Repeating%20Substring/solution.cpp) |
 | 1967B1 | [Reverse Card (Easy Version)](https://codeforces.com/contest/1967/problem/B1) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1967/B1%20-%20Reverse%20Card%20(Easy%20Version)/solution.cpp) |
@@ -1039,6 +1079,7 @@
 | 1907F | [Shift and Reverse](https://codeforces.com/contest/1907/problem/F) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1907/F%20-%20Shift%20and%20Reverse/solution.cpp) |
 | 1918B | [Minimize Inversions](https://codeforces.com/contest/1918/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1918/B%20-%20Minimize%20Inversions/solution.cpp) |
 | 1931E | [Anna and the Valentine's Day Gift](https://codeforces.com/contest/1931/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1931/E%20-%20Anna%20and%20the%20Valentine's%20Day%20Gift/solution.cpp) |
+| 1971E | [Find the Car](https://codeforces.com/contest/1971/problem/E) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1971/E%20-%20Find%20the%20Car/solution.cpp) |
 | 1978A | [Alice and Books](https://codeforces.com/contest/1978/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1978/A%20-%20Alice%20and%20Books/solution.cpp) |
 | 2057B | [Gorilla and the Exam](https://codeforces.com/contest/2057/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2057/B%20-%20Gorilla%20and%20the%20Exam/solution.cpp) |
 | 2065D | [Skibidus and Sigma](https://codeforces.com/contest/2065/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2065/D%20-%20Skibidus%20and%20Sigma/solution.cpp) |
@@ -1054,6 +1095,7 @@
 | 2176C | [Odd Process](https://codeforces.com/contest/2176/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2176/C%20-%20Odd%20Process/solution.cpp) |
 | 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 | 2184E | [Exquisite Array](https://codeforces.com/contest/2184/problem/E) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/E%20-%20Exquisite%20Array/solution.cpp) |
+| 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.cpp) |
 
 ### strings
 
@@ -1090,6 +1132,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
+| 1933E | [Turtle vs. Rabbit Race: Optimal Trainings](https://codeforces.com/contest/1933/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1933/E%20-%20Turtle%20vs.%20Rabbit%20Race%3A%20Optimal%20Trainings/solution.cpp) |
 
 ### trees
 
