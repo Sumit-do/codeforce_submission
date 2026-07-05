@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 447 | 32 |
+| 448 | 32 |
 
 ---
 
@@ -17,9 +17,9 @@
 - [Uncategorized](#uncategorized) (15)
 - [binary search](#binary-search) (69)
 - [bitmasks](#bitmasks) (49)
-- [brute force](#brute-force) (86)
+- [brute force](#brute-force) (87)
 - [combinatorics](#combinatorics) (26)
-- [constructive algorithms](#constructive-algorithms) (108)
+- [constructive algorithms](#constructive-algorithms) (109)
 - [data structures](#data-structures) (59)
 - [dfs and similar](#dfs-and-similar) (22)
 - [divide and conquer](#divide-and-conquer) (6)
@@ -33,7 +33,7 @@
 - [greedy](#greedy) (223)
 - [hashing](#hashing) (6)
 - [implementation](#implementation) (95)
-- [math](#math) (195)
+- [math](#math) (196)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (66)
 - [schedules](#schedules) (2)
@@ -291,6 +291,7 @@
 | 2182B | [New Year Cake](https://codeforces.com/contest/2182/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2182/B%20-%20New%20Year%20Cake/solution.cpp) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.cpp) |
 | 2203D | [Divisibility Game](https://codeforces.com/contest/2203/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2203/D%20-%20Divisibility%20Game/solution.cpp) |
+| 2204E | [Sum of Digits (and Again)](https://codeforces.com/contest/2204/problem/E) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2204/E%20-%20Sum%20of%20Digits%20(and%20Again)/solution.cpp) |
 | 2205A | [Simons and Making It Beautiful](https://codeforces.com/contest/2205/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/A%20-%20Simons%20and%20Making%20It%20Beautiful/solution.cpp) |
 | 2233A | [AI Project Development](https://codeforces.com/contest/2233/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2233/A%20-%20AI%20Project%20Development/solution.cpp) |
 | 2233C | [Cost of a Bracket Sequence](https://codeforces.com/contest/2233/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2233/C%20-%20Cost%20of%20a%20Bracket%20Sequence/solution.cpp) |
@@ -430,6 +431,7 @@
 | 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.cpp) |
 | 2199C | [Minesweeper](https://codeforces.com/contest/2199/problem/C) | 1600 | [Kotlin 1.7](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2199/C%20-%20Minesweeper/solution.txt) |
 | 2201B | [Recollect Numbers](https://codeforces.com/contest/2201/problem/B) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2201/B%20-%20Recollect%20Numbers/solution.cpp) |
+| 2204E | [Sum of Digits (and Again)](https://codeforces.com/contest/2204/problem/E) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2204/E%20-%20Sum%20of%20Digits%20(and%20Again)/solution.cpp) |
 | 2205A | [Simons and Making It Beautiful](https://codeforces.com/contest/2205/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/A%20-%20Simons%20and%20Making%20It%20Beautiful/solution.cpp) |
 | 2209D | [Ghostfires](https://codeforces.com/contest/2209/problem/D) | 1800 | [Kotlin 1.7](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2209/D%20-%20Ghostfires/solution.txt) |
 | 2211C2 | [Equal Multisets (Hard Version)](https://codeforces.com/contest/2211/problem/C2) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2211/C2%20-%20Equal%20Multisets%20(Hard%20Version)/solution.cpp) |
@@ -1237,6 +1239,7 @@
 | 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.cpp) |
 | 2202A | [Parkour Design](https://codeforces.com/contest/2202/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2202/A%20-%20Parkour%20Design/solution.cpp) |
 | 2204C | [Spring](https://codeforces.com/contest/2204/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2204/C%20-%20Spring/solution.cpp) |
+| 2204E | [Sum of Digits (and Again)](https://codeforces.com/contest/2204/problem/E) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2204/E%20-%20Sum%20of%20Digits%20(and%20Again)/solution.cpp) |
 | 2206J | [Worldwide Playlist](https://codeforces.com/contest/2206/problem/J) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2206/J%20-%20Worldwide%20Playlist/solution.cpp) |
 | 2208C | [Stamina and Tasks](https://codeforces.com/contest/2208/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2208/C%20-%20Stamina%20and%20Tasks/solution.cpp) |
 | 2215A | [Interval Mod](https://codeforces.com/contest/2215/problem/A) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2215/A%20-%20Interval%20Mod/solution.cpp) |
