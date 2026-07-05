@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 445 | 32 |
+| 446 | 32 |
 
 ---
 
@@ -19,8 +19,8 @@
 - [bitmasks](#bitmasks) (49)
 - [brute force](#brute-force) (86)
 - [combinatorics](#combinatorics) (26)
-- [constructive algorithms](#constructive-algorithms) (106)
-- [data structures](#data-structures) (58)
+- [constructive algorithms](#constructive-algorithms) (107)
+- [data structures](#data-structures) (59)
 - [dfs and similar](#dfs-and-similar) (22)
 - [divide and conquer](#divide-and-conquer) (6)
 - [dp](#dp) (95)
@@ -38,7 +38,7 @@
 - [number theory](#number-theory) (66)
 - [schedules](#schedules) (2)
 - [shortest paths](#shortest-paths) (3)
-- [sortings](#sortings) (57)
+- [sortings](#sortings) (58)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (33)
 - [ternary search](#ternary-search) (5)
@@ -433,6 +433,7 @@
 | 2205A | [Simons and Making It Beautiful](https://codeforces.com/contest/2205/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/A%20-%20Simons%20and%20Making%20It%20Beautiful/solution.cpp) |
 | 2209D | [Ghostfires](https://codeforces.com/contest/2209/problem/D) | 1800 | [Kotlin 1.7](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2209/D%20-%20Ghostfires/solution.txt) |
 | 2215A | [Interval Mod](https://codeforces.com/contest/2215/problem/A) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2215/A%20-%20Interval%20Mod/solution.cpp) |
+| 2222D | [Permutation Construction](https://codeforces.com/contest/2222/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2222/D%20-%20Permutation%20Construction/solution.cpp) |
 | 2231A | [Construct an Array](https://codeforces.com/contest/2231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2231/A%20-%20Construct%20an%20Array/solution.cpp) |
 | 2231B | [Another Sorting Problem](https://codeforces.com/contest/2231/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2231/B%20-%20Another%20Sorting%20Problem/solution.cpp) |
 | 2231D | [Maximum Prefix Sums](https://codeforces.com/contest/2231/problem/D) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2231/D%20-%20Maximum%20Prefix%20Sums/solution.cpp) |
@@ -502,6 +503,7 @@
 | 2184E | [Exquisite Array](https://codeforces.com/contest/2184/problem/E) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/E%20-%20Exquisite%20Array/solution.cpp) |
 | 2185F | [BattleCows](https://codeforces.com/contest/2185/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2185/F%20-%20BattleCows/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
+| 2222D | [Permutation Construction](https://codeforces.com/contest/2222/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2222/D%20-%20Permutation%20Construction/solution.cpp) |
 | 2227F | [It Just Keeps Going Sideways](https://codeforces.com/contest/2227/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2227/F%20-%20It%20Just%20Keeps%20Going%20Sideways/solution.cpp) |
 
 ### dfs and similar
@@ -1401,6 +1403,7 @@
 | 2184E | [Exquisite Array](https://codeforces.com/contest/2184/problem/E) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/E%20-%20Exquisite%20Array/solution.cpp) |
 | 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.cpp) |
 | 2205C | [Simons and Posting Blogs](https://codeforces.com/contest/2205/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/C%20-%20Simons%20and%20Posting%20Blogs/solution.cpp) |
+| 2222D | [Permutation Construction](https://codeforces.com/contest/2222/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2222/D%20-%20Permutation%20Construction/solution.cpp) |
 | 2231C | [Chipmunk Theo and Equality](https://codeforces.com/contest/2231/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2231/C%20-%20Chipmunk%20Theo%20and%20Equality/solution.cpp) |
 | 2232A | [Convergence](https://codeforces.com/contest/2232/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2232/A%20-%20Convergence/solution.cpp) |
 | 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
