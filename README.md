@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 451 | 32 |
+| 452 | 32 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (2)
 - [2-sat](#2-sat) (1)
-- [Uncategorized](#uncategorized) (18)
+- [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (69)
 - [bitmasks](#bitmasks) (49)
 - [brute force](#brute-force) (87)
@@ -79,6 +79,7 @@
 | 2241E | [Fair and Square](https://codeforces.com/contest/2241/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/E%20-%20Fair%20and%20Square/solution.cpp) |
 | 2241F | [A Bit Odd](https://codeforces.com/contest/2241/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2241/F%20-%20A%20Bit%20Odd/solution.cpp) |
 | 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2242/A%20-%20Bigrams/solution.cpp) |
+| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
 | 2242C | [Unstable Elements](https://codeforces.com/contest/2242/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2242/C%20-%20Unstable%20Elements/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
 | 105283E | [Minimize Sum](https://codeforces.com/contest/105283/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/105283/E%20-%20Minimize%20Sum/solution.cpp) |
