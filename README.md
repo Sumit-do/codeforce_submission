@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 454 | 32 |
+| 455 | 32 |
 
 ---
 
@@ -16,8 +16,8 @@
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (69)
-- [bitmasks](#bitmasks) (49)
-- [brute force](#brute-force) (88)
+- [bitmasks](#bitmasks) (50)
+- [brute force](#brute-force) (89)
 - [combinatorics](#combinatorics) (26)
 - [constructive algorithms](#constructive-algorithms) (109)
 - [data structures](#data-structures) (61)
@@ -27,10 +27,10 @@
 - [dsu](#dsu) (8)
 - [fft](#fft) (1)
 - [flows](#flows) (1)
-- [games](#games) (15)
+- [games](#games) (16)
 - [geometry](#geometry) (5)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (225)
+- [greedy](#greedy) (226)
 - [hashing](#hashing) (6)
 - [implementation](#implementation) (97)
 - [math](#math) (197)
@@ -211,6 +211,7 @@
 | 2180C | [XOR-factorization](https://codeforces.com/contest/2180/problem/C) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2180/C%20-%20XOR-factorization/solution.cpp) |
 | 2189C1 | [XOR Convenience (Easy Version)](https://codeforces.com/contest/2189/problem/C1) | 1300 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2189/C1%20-%20XOR%20Convenience%20(Easy%20Version)/solution.cpp) |
 | 2234D | [XOR, Expression and Two Binary Numbers](https://codeforces.com/contest/2234/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2234/D%20-%20XOR%2C%20Expression%20and%20Two%20Binary%20Numbers/solution.cpp) |
+| 2246D | [diss_quack and Array Game](https://codeforces.com/contest/2246/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2246/D%20-%20diss_quack%20and%20Array%20Game/solution.cpp) |
 
 ### brute force
 
@@ -304,6 +305,7 @@
 | 2236C | [Omsk Programmers](https://codeforces.com/contest/2236/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2236/C%20-%20Omsk%20Programmers/solution.cpp) |
 | 2236E | [Friendly Gifts](https://codeforces.com/contest/2236/problem/E) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2236/E%20-%20Friendly%20Gifts/solution.cpp) |
 | 2237B | [Annoying the Ghost](https://codeforces.com/contest/2237/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2237/B%20-%20Annoying%20the%20Ghost/solution.cpp) |
+| 2246D | [diss_quack and Array Game](https://codeforces.com/contest/2246/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2246/D%20-%20diss_quack%20and%20Array%20Game/solution.cpp) |
 
 ### combinatorics
 
@@ -700,6 +702,7 @@
 | 2203D | [Divisibility Game](https://codeforces.com/contest/2203/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2203/D%20-%20Divisibility%20Game/solution.cpp) |
 | 2236D | [Brand New Tatar TV Show](https://codeforces.com/contest/2236/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2236/D%20-%20Brand%20New%20Tatar%20TV%20Show/solution.cpp) |
 | 2237A | [Destroying Towers](https://codeforces.com/contest/2237/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2237/A%20-%20Destroying%20Towers/solution.cpp) |
+| 2246D | [diss_quack and Array Game](https://codeforces.com/contest/2246/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2246/D%20-%20diss_quack%20and%20Array%20Game/solution.cpp) |
 
 ### geometry
 
@@ -959,6 +962,7 @@
 | 2238D | [Storming Arasaka](https://codeforces.com/contest/2238/problem/D) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2238/D%20-%20Storming%20Arasaka/solution.cpp) |
 | 2240A | [Another Popcount Problem](https://codeforces.com/contest/2240/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2240/A%20-%20Another%20Popcount%20Problem/solution.cpp) |
 | 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.cpp) |
+| 2246D | [diss_quack and Array Game](https://codeforces.com/contest/2246/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2246/D%20-%20diss_quack%20and%20Array%20Game/solution.cpp) |
 
 ### hashing
 
