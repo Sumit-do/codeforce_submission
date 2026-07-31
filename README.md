@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 459 | 32 |
+| 460 | 32 |
 
 ---
 
@@ -18,12 +18,12 @@
 - [binary search](#binary-search) (69)
 - [bitmasks](#bitmasks) (50)
 - [brute force](#brute-force) (89)
-- [combinatorics](#combinatorics) (26)
+- [combinatorics](#combinatorics) (27)
 - [constructive algorithms](#constructive-algorithms) (109)
 - [data structures](#data-structures) (64)
 - [dfs and similar](#dfs-and-similar) (23)
 - [divide and conquer](#divide-and-conquer) (7)
-- [dp](#dp) (98)
+- [dp](#dp) (99)
 - [dsu](#dsu) (8)
 - [fft](#fft) (1)
 - [flows](#flows) (1)
@@ -33,7 +33,7 @@
 - [greedy](#greedy) (228)
 - [hashing](#hashing) (6)
 - [implementation](#implementation) (97)
-- [math](#math) (197)
+- [math](#math) (198)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (66)
 - [schedules](#schedules) (2)
@@ -312,6 +312,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 677C | [Vanya and Label](https://codeforces.com/contest/677/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/677/C%20-%20Vanya%20and%20Label/solution.cpp) |
+| 1239A | [Ivan the Fool and the Probability Theory](https://codeforces.com/contest/1239/problem/A) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1239/A%20-%20Ivan%20the%20Fool%20and%20the%20Probability%20Theory/solution.cpp) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
 | 1475E | [Advertising Agency](https://codeforces.com/contest/1475/problem/E) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1475/E%20-%20Advertising%20Agency/solution.cpp) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
@@ -571,6 +572,7 @@
 | 687C | [The Values You Can Make](https://codeforces.com/contest/687/problem/C) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/687/C%20-%20The%20Values%20You%20Can%20Make/solution.cpp) |
 | 837D | [Round Subset](https://codeforces.com/contest/837/problem/D) | 2100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/837/D%20-%20Round%20Subset/solution.cpp) |
 | 1178B | [WOW Factor](https://codeforces.com/contest/1178/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1178/B%20-%20WOW%20Factor/solution.cpp) |
+| 1239A | [Ivan the Fool and the Probability Theory](https://codeforces.com/contest/1239/problem/A) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1239/A%20-%20Ivan%20the%20Fool%20and%20the%20Probability%20Theory/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1336A | [Linova and Kingdom](https://codeforces.com/contest/1336/problem/A) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1336/A%20-%20Linova%20and%20Kingdom/solution.cpp) |
 | 1389B | [Array Walk](https://codeforces.com/contest/1389/problem/B) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1389/B%20-%20Array%20Walk/solution.cpp) |
@@ -1101,6 +1103,7 @@
 | 1194A | [Remove a Progression](https://codeforces.com/contest/1194/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1194/A%20-%20Remove%20a%20Progression/solution.cpp) |
 | 1200C | [Round Corridor](https://codeforces.com/contest/1200/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1200/C%20-%20Round%20Corridor/solution.cpp) |
 | 1203C | [Common Divisors](https://codeforces.com/contest/1203/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1203/C%20-%20Common%20Divisors/solution.cpp) |
+| 1239A | [Ivan the Fool and the Probability Theory](https://codeforces.com/contest/1239/problem/A) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1239/A%20-%20Ivan%20the%20Fool%20and%20the%20Probability%20Theory/solution.cpp) |
 | 1285C | [Fadi and LCM](https://codeforces.com/contest/1285/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1285/C%20-%20Fadi%20and%20LCM/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
