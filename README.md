@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 460 | 32 |
+| 461 | 32 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [brute force](#brute-force) (89)
 - [combinatorics](#combinatorics) (27)
 - [constructive algorithms](#constructive-algorithms) (109)
-- [data structures](#data-structures) (64)
+- [data structures](#data-structures) (65)
 - [dfs and similar](#dfs-and-similar) (23)
 - [divide and conquer](#divide-and-conquer) (7)
 - [dp](#dp) (99)
@@ -30,7 +30,7 @@
 - [games](#games) (16)
 - [geometry](#geometry) (5)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (228)
+- [greedy](#greedy) (229)
 - [hashing](#hashing) (6)
 - [implementation](#implementation) (97)
 - [math](#math) (198)
@@ -43,7 +43,7 @@
 - [strings](#strings) (35)
 - [ternary search](#ternary-search) (5)
 - [trees](#trees) (19)
-- [two pointers](#two-pointers) (38)
+- [two pointers](#two-pointers) (39)
 
 ---
 
@@ -508,6 +508,7 @@
 | 2123E | [MEX Count](https://codeforces.com/contest/2123/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2123/E%20-%20MEX%20Count/solution.cpp) |
 | 2126D | [This Is the Last Time](https://codeforces.com/contest/2126/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2126/D%20-%20This%20Is%20the%20Last%20Time/solution.cpp) |
 | 2132E | [Arithmetics Competition](https://codeforces.com/contest/2132/problem/E) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2132/E%20-%20Arithmetics%20Competition/solution.cpp) |
+| 2138B | [Antiamuny Wants to Learn Swap](https://codeforces.com/contest/2138/problem/B) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2138/B%20-%20Antiamuny%20Wants%20to%20Learn%20Swap/solution.cpp) |
 | 2140C | [Ultimate Value](https://codeforces.com/contest/2140/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2140/C%20-%20Ultimate%20Value/solution.cpp) |
 | 2148E | [Split](https://codeforces.com/contest/2148/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2148/E%20-%20Split/solution.cpp) |
 | 2152C | [Triple Removal](https://codeforces.com/contest/2152/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2152/C%20-%20Triple%20Removal/solution.cpp) |
@@ -890,6 +891,7 @@
 | 2132E | [Arithmetics Competition](https://codeforces.com/contest/2132/problem/E) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2132/E%20-%20Arithmetics%20Competition/solution.cpp) |
 | 2136A | [In the Dream](https://codeforces.com/contest/2136/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2136/A%20-%20In%20the%20Dream/solution.cpp) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.cpp) |
+| 2138B | [Antiamuny Wants to Learn Swap](https://codeforces.com/contest/2138/problem/B) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2138/B%20-%20Antiamuny%20Wants%20to%20Learn%20Swap/solution.cpp) |
 | 2140C | [Ultimate Value](https://codeforces.com/contest/2140/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2140/C%20-%20Ultimate%20Value/solution.cpp) |
 | 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.cpp) |
 | 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.cpp) |
@@ -1562,6 +1564,7 @@
 | 2123E | [MEX Count](https://codeforces.com/contest/2123/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2123/E%20-%20MEX%20Count/solution.cpp) |
 | 2124D | [Make a Palindrome](https://codeforces.com/contest/2124/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2124/D%20-%20Make%20a%20Palindrome/solution.cpp) |
 | 2136B | [Like the Bitset](https://codeforces.com/contest/2136/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2136/B%20-%20Like%20the%20Bitset/solution.cpp) |
+| 2138B | [Antiamuny Wants to Learn Swap](https://codeforces.com/contest/2138/problem/B) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2138/B%20-%20Antiamuny%20Wants%20to%20Learn%20Swap/solution.cpp) |
 | 2148E | [Split](https://codeforces.com/contest/2148/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2148/E%20-%20Split/solution.cpp) |
 | 2157D | [Billion Players Game](https://codeforces.com/contest/2157/problem/D) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2157/D%20-%20Billion%20Players%20Game/solution.cpp) |
 | 2163C | [Monopati](https://codeforces.com/contest/2163/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2163/C%20-%20Monopati/solution.cpp) |
