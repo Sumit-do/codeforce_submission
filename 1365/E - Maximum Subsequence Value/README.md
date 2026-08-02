@@ -1,0 +1,25 @@
+<h2><a href="https://codeforces.com/contest/1365/problem/E" target="_blank" rel="noopener noreferrer">1365E — Maximum Subsequence Value</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1900 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1365E](https://codeforces.com/contest/1365/problem/E) |
+
+## Topics
+`brute force` `constructive algorithms`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">E. Maximum Subsequence Value</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Ridhiman challenged Ashish to find the maximum valued subsequence of an array $$$a$$$ of size $$$n$$$ consisting of positive integers. </p><p>The value of a non-empty subsequence of $$$k$$$ elements of $$$a$$$ is defined as $$$\sum 2^i$$$ over all integers $$$i \ge 0$$$ such that at least $$$\max(1, k - 2)$$$ elements of the subsequence have the $$$i$$$-th bit set in their binary representation (value $$$x$$$ has the $$$i$$$-th bit set in its binary representation if $$$\lfloor \frac{x}{2^i} \rfloor \mod 2$$$ is equal to $$$1$$$). </p><p>Recall that $$$b$$$ is a subsequence of $$$a$$$, if $$$b$$$ can be obtained by deleting some(possibly zero) elements from $$$a$$$.</p><p>Help Ashish find the maximum value he can get by choosing some subsequence of $$$a$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input consists of a single integer $$$n$$$ $$$(1 \le n \le 500)$$$ — the size of $$$a$$$.</p><p>The next line consists of $$$n$$$ space-separated integers — the elements of the array $$$(1 \le a_i \le 10^{18})$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print a single integer — the maximum value Ashish can get by choosing some subsequence of $$$a$$$.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005038773888832128" id="id007099958442034026" class="input-output-copier">Copy</div></div><pre id="id005038773888832128">3
+2 1 3
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0008589531619629709" id="id006978701621961094" class="input-output-copier">Copy</div></div><pre id="id0008589531619629709">3</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007329352590508239" id="id003699943636488209" class="input-output-copier">Copy</div></div><pre id="id007329352590508239">3
+3 1 4
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0030779283576459937" id="id006164103776980826" class="input-output-copier">Copy</div></div><pre id="id0030779283576459937">7</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008465134690563618" id="id0018886306106652584" class="input-output-copier">Copy</div></div><pre id="id008465134690563618">1
+1
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007508670014862233" id="id0037484238329966" class="input-output-copier">Copy</div></div><pre id="id007508670014862233">1</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009381407398154132" id="id007535666674246159" class="input-output-copier">Copy</div></div><pre id="id009381407398154132">4
+7 7 1 1
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id007276253203959959" id="id005991038589498321" class="input-output-copier">Copy</div></div><pre id="id007276253203959959">7</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>For the first test case, Ashish can pick the subsequence $$$\{{2, 3}\}$$$ of size $$$2$$$. The binary representation of $$$2$$$ is <span class="tex-font-style-tt">10</span> and that of $$$3$$$ is <span class="tex-font-style-tt">11</span>. Since $$$\max(k - 2, 1)$$$ is equal to $$$1$$$, the value of the subsequence is $$$2^0 + 2^1$$$ (both $$$2$$$ and $$$3$$$ have $$$1$$$-st bit set in their binary representation and $$$3$$$ has $$$0$$$-th bit set in its binary representation). Note that he could also pick the subsequence $$$\{{3\}}$$$ or $$$\{{2, 1, 3\}}$$$.</p><p>For the second test case, Ashish can pick the subsequence $$$\{{3, 4\}}$$$ with value $$$7$$$.</p><p>For the third test case, Ashish can pick the subsequence $$$\{{1\}}$$$ with value $$$1$$$.</p><p>For the fourth test case, Ashish can pick the subsequence $$$\{{7, 7\}}$$$ with value $$$7$$$.</p></div>
