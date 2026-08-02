@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 463 | 32 |
+| 464 | 32 |
 
 ---
 
@@ -17,9 +17,9 @@
 - [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (69)
 - [bitmasks](#bitmasks) (51)
-- [brute force](#brute-force) (89)
+- [brute force](#brute-force) (90)
 - [combinatorics](#combinatorics) (27)
-- [constructive algorithms](#constructive-algorithms) (111)
+- [constructive algorithms](#constructive-algorithms) (112)
 - [data structures](#data-structures) (65)
 - [dfs and similar](#dfs-and-similar) (24)
 - [divide and conquer](#divide-and-conquer) (7)
@@ -223,6 +223,7 @@
 | 1285C | [Fadi and LCM](https://codeforces.com/contest/1285/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1285/C%20-%20Fadi%20and%20LCM/solution.cpp) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
 | 1362B | [Johnny and His Hobbies](https://codeforces.com/contest/1362/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1362/B%20-%20Johnny%20and%20His%20Hobbies/solution.cpp) |
+| 1365E | [Maximum Subsequence Value](https://codeforces.com/contest/1365/problem/E) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1365/E%20-%20Maximum%20Subsequence%20Value/solution.cpp) |
 | 1389B | [Array Walk](https://codeforces.com/contest/1389/problem/B) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1389/B%20-%20Array%20Walk/solution.cpp) |
 | 1395C | [Boboniu and Bit Operations](https://codeforces.com/contest/1395/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1395/C%20-%20Boboniu%20and%20Bit%20Operations/solution.cpp) |
 | 1399C | [Boats Competition](https://codeforces.com/contest/1399/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1399/C%20-%20Boats%20Competition/solution.cpp) |
@@ -348,6 +349,7 @@
 | 1103A | [Grid game](https://codeforces.com/contest/1103/problem/A) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1103/A%20-%20Grid%20game/solution.cpp) |
 | 1254A | [Feeding Chicken](https://codeforces.com/contest/1254/problem/A) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1254/A%20-%20Feeding%20Chicken/solution.cpp) |
 | 1338B | [Edge Weight Assignment](https://codeforces.com/contest/1338/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1338/B%20-%20Edge%20Weight%20Assignment/solution.cpp) |
+| 1365E | [Maximum Subsequence Value](https://codeforces.com/contest/1365/problem/E) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1365/E%20-%20Maximum%20Subsequence%20Value/solution.cpp) |
 | 1421C | [Palindromifier](https://codeforces.com/contest/1421/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1421/C%20-%20Palindromifier/solution.cpp) |
 | 1433D | [Districts Connection](https://codeforces.com/contest/1433/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1433/D%20-%20Districts%20Connection/solution.cpp) |
 | 1437B | [Reverse Binary Strings](https://codeforces.com/contest/1437/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1437/B%20-%20Reverse%20Binary%20Strings/solution.cpp) |
