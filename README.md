@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 462 | 32 |
+| 463 | 32 |
 
 ---
 
@@ -16,12 +16,12 @@
 - [2-sat](#2-sat) (1)
 - [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (69)
-- [bitmasks](#bitmasks) (50)
+- [bitmasks](#bitmasks) (51)
 - [brute force](#brute-force) (89)
 - [combinatorics](#combinatorics) (27)
-- [constructive algorithms](#constructive-algorithms) (110)
+- [constructive algorithms](#constructive-algorithms) (111)
 - [data structures](#data-structures) (65)
-- [dfs and similar](#dfs-and-similar) (23)
+- [dfs and similar](#dfs-and-similar) (24)
 - [divide and conquer](#divide-and-conquer) (7)
 - [dp](#dp) (99)
 - [dsu](#dsu) (8)
@@ -30,10 +30,10 @@
 - [games](#games) (16)
 - [geometry](#geometry) (5)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (230)
+- [greedy](#greedy) (231)
 - [hashing](#hashing) (6)
 - [implementation](#implementation) (98)
-- [math](#math) (198)
+- [math](#math) (199)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (66)
 - [schedules](#schedules) (2)
@@ -42,7 +42,7 @@
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (35)
 - [ternary search](#ternary-search) (5)
-- [trees](#trees) (19)
+- [trees](#trees) (20)
 - [two pointers](#two-pointers) (39)
 
 ---
@@ -167,6 +167,7 @@
 | 1095C | [Powers Of Two](https://codeforces.com/contest/1095/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1095/C%20-%20Powers%20Of%20Two/solution.cpp) |
 | 1202A | [You Are Given Two Binary Strings...](https://codeforces.com/contest/1202/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1202/A%20-%20You%20Are%20Given%20Two%20Binary%20Strings.../solution.cpp) |
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
+| 1338B | [Edge Weight Assignment](https://codeforces.com/contest/1338/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1338/B%20-%20Edge%20Weight%20Assignment/solution.cpp) |
 | 1362B | [Johnny and His Hobbies](https://codeforces.com/contest/1362/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1362/B%20-%20Johnny%20and%20His%20Hobbies/solution.cpp) |
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
 | 1395C | [Boboniu and Bit Operations](https://codeforces.com/contest/1395/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1395/C%20-%20Boboniu%20and%20Bit%20Operations/solution.cpp) |
@@ -346,6 +347,7 @@
 | 776B | [Sherlock and his girlfriend](https://codeforces.com/contest/776/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/776/B%20-%20Sherlock%20and%20his%20girlfriend/solution.cpp) |
 | 1103A | [Grid game](https://codeforces.com/contest/1103/problem/A) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1103/A%20-%20Grid%20game/solution.cpp) |
 | 1254A | [Feeding Chicken](https://codeforces.com/contest/1254/problem/A) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1254/A%20-%20Feeding%20Chicken/solution.cpp) |
+| 1338B | [Edge Weight Assignment](https://codeforces.com/contest/1338/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1338/B%20-%20Edge%20Weight%20Assignment/solution.cpp) |
 | 1421C | [Palindromifier](https://codeforces.com/contest/1421/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1421/C%20-%20Palindromifier/solution.cpp) |
 | 1433D | [Districts Connection](https://codeforces.com/contest/1433/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1433/D%20-%20Districts%20Connection/solution.cpp) |
 | 1437B | [Reverse Binary Strings](https://codeforces.com/contest/1437/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1437/B%20-%20Reverse%20Binary%20Strings/solution.cpp) |
@@ -531,6 +533,7 @@
 | 161D | [Distance in Tree](https://codeforces.com/contest/161/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/161/D%20-%20Distance%20in%20Tree/solution.cpp) |
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
 | 1336A | [Linova and Kingdom](https://codeforces.com/contest/1336/problem/A) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1336/A%20-%20Linova%20and%20Kingdom/solution.cpp) |
+| 1338B | [Edge Weight Assignment](https://codeforces.com/contest/1338/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1338/B%20-%20Edge%20Weight%20Assignment/solution.cpp) |
 | 1433D | [Districts Connection](https://codeforces.com/contest/1433/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1433/D%20-%20Districts%20Connection/solution.cpp) |
 | 1528A | [Parsa's Humongous Tree](https://codeforces.com/contest/1528/problem/A) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1528/A%20-%20Parsa's%20Humongous%20Tree/solution.cpp) |
 | 1676G | [White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1676/G%20-%20White-Black%20Balanced%20Subtrees/solution.cpp) |
@@ -761,6 +764,7 @@
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
 | 1332C | [K-Complete Word](https://codeforces.com/contest/1332/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1332/C%20-%20K-Complete%20Word/solution.cpp) |
 | 1336A | [Linova and Kingdom](https://codeforces.com/contest/1336/problem/A) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1336/A%20-%20Linova%20and%20Kingdom/solution.cpp) |
+| 1338B | [Edge Weight Assignment](https://codeforces.com/contest/1338/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1338/B%20-%20Edge%20Weight%20Assignment/solution.cpp) |
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
 | 1364B | [Most socially-distanced subsequence](https://codeforces.com/contest/1364/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1364/B%20-%20Most%20socially-distanced%20subsequence/solution.cpp) |
 | 1372B | [Omkar and Last Class of Math](https://codeforces.com/contest/1372/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1372/B%20-%20Omkar%20and%20Last%20Class%20of%20Math/solution.cpp) |
@@ -1113,6 +1117,7 @@
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1305C | [Kuroni and Impossible Calculation](https://codeforces.com/contest/1305/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1305/C%20-%20Kuroni%20and%20Impossible%20Calculation/solution.cpp) |
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
+| 1338B | [Edge Weight Assignment](https://codeforces.com/contest/1338/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1338/B%20-%20Edge%20Weight%20Assignment/solution.cpp) |
 | 1349A | [Orac and LCM](https://codeforces.com/contest/1349/problem/A) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1349/A%20-%20Orac%20and%20LCM/solution.cpp) |
 | 1350A | [Orac and Factors](https://codeforces.com/contest/1350/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1350/A%20-%20Orac%20and%20Factors/solution.cpp) |
 | 1360D | [Buying Shovels](https://codeforces.com/contest/1360/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1360/D%20-%20Buying%20Shovels/solution.cpp) |
@@ -1514,6 +1519,7 @@
 |---|---------|------------|----------|
 | 161D | [Distance in Tree](https://codeforces.com/contest/161/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/161/D%20-%20Distance%20in%20Tree/solution.cpp) |
 | 1336A | [Linova and Kingdom](https://codeforces.com/contest/1336/problem/A) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1336/A%20-%20Linova%20and%20Kingdom/solution.cpp) |
+| 1338B | [Edge Weight Assignment](https://codeforces.com/contest/1338/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1338/B%20-%20Edge%20Weight%20Assignment/solution.cpp) |
 | 1528A | [Parsa's Humongous Tree](https://codeforces.com/contest/1528/problem/A) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1528/A%20-%20Parsa's%20Humongous%20Tree/solution.cpp) |
 | 1676G | [White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | 1300 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1676/G%20-%20White-Black%20Balanced%20Subtrees/solution.cpp) |
 | 1830A | [Copil Copac Draws Trees](https://codeforces.com/contest/1830/problem/A) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/1830/A%20-%20Copil%20Copac%20Draws%20Trees/solution.cpp) |
