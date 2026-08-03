@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 464 | 32 |
+| 465 | 32 |
 
 ---
 
@@ -17,10 +17,10 @@
 - [Uncategorized](#uncategorized) (19)
 - [binary search](#binary-search) (69)
 - [bitmasks](#bitmasks) (51)
-- [brute force](#brute-force) (90)
+- [brute force](#brute-force) (91)
 - [combinatorics](#combinatorics) (27)
 - [constructive algorithms](#constructive-algorithms) (112)
-- [data structures](#data-structures) (65)
+- [data structures](#data-structures) (66)
 - [dfs and similar](#dfs-and-similar) (24)
 - [divide and conquer](#divide-and-conquer) (7)
 - [dp](#dp) (99)
@@ -30,15 +30,15 @@
 - [games](#games) (16)
 - [geometry](#geometry) (5)
 - [graphs](#graphs) (14)
-- [greedy](#greedy) (231)
+- [greedy](#greedy) (232)
 - [hashing](#hashing) (6)
-- [implementation](#implementation) (98)
+- [implementation](#implementation) (99)
 - [math](#math) (199)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (66)
 - [schedules](#schedules) (2)
 - [shortest paths](#shortest-paths) (3)
-- [sortings](#sortings) (60)
+- [sortings](#sortings) (61)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (35)
 - [ternary search](#ternary-search) (5)
@@ -298,6 +298,7 @@
 | 2180A | [Carnival Wheel](https://codeforces.com/contest/2180/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2180/A%20-%20Carnival%20Wheel/solution.cpp) |
 | 2182B | [New Year Cake](https://codeforces.com/contest/2182/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2182/B%20-%20New%20Year%20Cake/solution.cpp) |
 | 2182C | [Production of Snowmen](https://codeforces.com/contest/2182/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2182/C%20-%20Production%20of%20Snowmen/solution.cpp) |
+| 2200F | [Mooclear Reactor 2](https://codeforces.com/contest/2200/problem/F) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2200/F%20-%20Mooclear%20Reactor%202/solution.cpp) |
 | 2203D | [Divisibility Game](https://codeforces.com/contest/2203/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2203/D%20-%20Divisibility%20Game/solution.cpp) |
 | 2204E | [Sum of Digits (and Again)](https://codeforces.com/contest/2204/problem/E) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2204/E%20-%20Sum%20of%20Digits%20(and%20Again)/solution.cpp) |
 | 2205A | [Simons and Making It Beautiful](https://codeforces.com/contest/2205/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/A%20-%20Simons%20and%20Making%20It%20Beautiful/solution.cpp) |
@@ -522,6 +523,7 @@
 | 2180D | [Insolvable Disks](https://codeforces.com/contest/2180/problem/D) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2180/D%20-%20Insolvable%20Disks/solution.cpp) |
 | 2184E | [Exquisite Array](https://codeforces.com/contest/2184/problem/E) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/E%20-%20Exquisite%20Array/solution.cpp) |
 | 2185F | [BattleCows](https://codeforces.com/contest/2185/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2185/F%20-%20BattleCows/solution.cpp) |
+| 2200F | [Mooclear Reactor 2](https://codeforces.com/contest/2200/problem/F) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2200/F%20-%20Mooclear%20Reactor%202/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 | 2222D | [Permutation Construction](https://codeforces.com/contest/2222/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2222/D%20-%20Permutation%20Construction/solution.cpp) |
 | 2227F | [It Just Keeps Going Sideways](https://codeforces.com/contest/2227/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2227/F%20-%20It%20Just%20Keeps%20Going%20Sideways/solution.cpp) |
@@ -954,6 +956,7 @@
 | 2192C | [All-in-one Gun](https://codeforces.com/contest/2192/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2192/C%20-%20All-in-one%20Gun/solution.cpp) |
 | 2193F | [Pizza Delivery](https://codeforces.com/contest/2193/problem/F) | 1600 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2193/F%20-%20Pizza%20Delivery/solution.cpp) |
 | 2199C | [Minesweeper](https://codeforces.com/contest/2199/problem/C) | 1600 | [Kotlin 1.7](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2199/C%20-%20Minesweeper/solution.txt) |
+| 2200F | [Mooclear Reactor 2](https://codeforces.com/contest/2200/problem/F) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2200/F%20-%20Mooclear%20Reactor%202/solution.cpp) |
 | 2203D | [Divisibility Game](https://codeforces.com/contest/2203/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2203/D%20-%20Divisibility%20Game/solution.cpp) |
 | 2205C | [Simons and Posting Blogs](https://codeforces.com/contest/2205/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/C%20-%20Simons%20and%20Posting%20Blogs/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
@@ -1092,6 +1095,7 @@
 | 2182A | [New Year String](https://codeforces.com/contest/2182/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2182/A%20-%20New%20Year%20String/solution.cpp) |
 | 2185F | [BattleCows](https://codeforces.com/contest/2185/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2185/F%20-%20BattleCows/solution.cpp) |
 | 2189A | [Table with Numbers](https://codeforces.com/contest/2189/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2189/A%20-%20Table%20with%20Numbers/solution.cpp) |
+| 2200F | [Mooclear Reactor 2](https://codeforces.com/contest/2200/problem/F) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2200/F%20-%20Mooclear%20Reactor%202/solution.cpp) |
 | 2205D | [Simons and Beating Peaks](https://codeforces.com/contest/2205/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/D%20-%20Simons%20and%20Beating%20Peaks/solution.cpp) |
 | 2231C | [Chipmunk Theo and Equality](https://codeforces.com/contest/2231/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2231/C%20-%20Chipmunk%20Theo%20and%20Equality/solution.cpp) |
 | 2231D | [Maximum Prefix Sums](https://codeforces.com/contest/2231/problem/D) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2231/D%20-%20Maximum%20Prefix%20Sums/solution.cpp) |
@@ -1452,6 +1456,7 @@
 | 2179C | [Blackslex and Number Theory](https://codeforces.com/contest/2179/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2179/C%20-%20Blackslex%20and%20Number%20Theory/solution.cpp) |
 | 2184E | [Exquisite Array](https://codeforces.com/contest/2184/problem/E) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2184/E%20-%20Exquisite%20Array/solution.cpp) |
 | 2191B | [MEX Reordering](https://codeforces.com/contest/2191/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2191/B%20-%20MEX%20Reordering/solution.cpp) |
+| 2200F | [Mooclear Reactor 2](https://codeforces.com/contest/2200/problem/F) | 1900 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2200/F%20-%20Mooclear%20Reactor%202/solution.cpp) |
 | 2205C | [Simons and Posting Blogs](https://codeforces.com/contest/2205/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2205/C%20-%20Simons%20and%20Posting%20Blogs/solution.cpp) |
 | 2222D | [Permutation Construction](https://codeforces.com/contest/2222/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2222/D%20-%20Permutation%20Construction/solution.cpp) |
 | 2231C | [Chipmunk Theo and Equality](https://codeforces.com/contest/2231/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Sumit-do/codeforce_submission/blob/HEAD/2231/C%20-%20Chipmunk%20Theo%20and%20Equality/solution.cpp) |
